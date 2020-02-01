@@ -24,6 +24,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplayTimeout: 10000,
         fluidSpeed: 1,
+        lazyLoad: true,
         // slideSpeed : 10000,
         autoplaySpeed: 3000,
         responsive: {
