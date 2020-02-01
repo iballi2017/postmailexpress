@@ -1,0 +1,380 @@
+$white: #ffffff;
+$primaryGreeen: #88CC88;
+$primaryGreenRGBA: rgba(136, 204, 136, 0.12);
+$secondaryGreen: #116611;
+$secondaryGreen2: #2D882D;
+$blendModeBlack: #131212;
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+// typography   ####################
+
+
+// ####################
+
+
+
+
+
+// component   ####################
+button, a.btn{
+    border-radius: 0 !important;
+}
+
+.green-button{
+    background-color: $secondaryGreen2;
+    color: $white;
+    &:hover{
+        color: $white;
+        background-color: $secondaryGreen;
+    }
+}
+
+.form-control[type='text']{
+    // background-color: red !important;
+    // border: none;
+    border-radius: 0;
+
+    &:focus{
+        border: 1px solid $secondaryGreen;
+        outline: 0;
+        inset: 0;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
+    }
+}
+.navbar-toggler{
+    border: 0;
+    box-shadow: 0;
+    &:focus{
+        border: 1px solid $primaryGreeen;
+        outline: 0;
+        inset: 0;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
+    }
+
+}
+.menu-button-icon {
+    color: $secondaryGreen;
+}
+
+.review-card{
+    background-color: $primaryGreenRGBA;
+}
+
+// ####################
+
+
+
+
+// global   ####################
+
+    .navbar-brand{
+        text-indent: -100000px;
+        h2{
+            background-image: url("../images/PostMailExpress.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 120px;
+            height: 40px;
+    
+        }
+    }
+    .section-title{
+        text-transform: uppercase;
+        margin-top: 5em;
+        font-weight: 600;
+    }
+
+    .rating-star{
+        color: #CA940B;
+    }
+// ####################
+
+
+
+
+
+.user-account-nav{
+    background-color: #202020;
+
+    .nav-link {
+        display: block;
+        padding: .5rem 1rem 1rem 0;
+        color: $white;
+    
+        &:hover{
+            color: $secondaryGreen2;
+        }
+        &:focus{
+            text-decoration: underline;
+        }
+        &.active{
+            color: $secondaryGreen2;
+        }
+    }
+}
+
+
+
+.hero-container{
+    height: 80vh;
+    background-color: $blendModeBlack;
+    background-image: url(../images/frank-mckenna-tjX_sniNzgQ-unsplash\ 1.png);
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+.hero-content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .content-inner{
+        width: 60%;
+    }
+
+    .slide-content{
+        height: 60%;
+    }
+
+    .track-input-wrapper{
+        height: 40%;
+    }
+}
+
+
+.track-field-container{
+    background-color: rgba(255, 255, 255, .5);
+    h5{
+        color: $secondaryGreen;
+        font-weight: 600;
+    }
+}
+
+
+.services-list{
+    padding: 0;
+
+    .services-item{
+        background-color: $blendModeBlack !important;
+        color: $white;
+        list-style: none;
+        margin: 1em;
+        height: 400px;
+        background-blend-mode: soft-light;
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        &.item1{
+            background: url(../images/khadeeja-yasser-9jLYl1TmZAg-unsplash\ 1.png);
+        }
+
+        &.item2{
+            background: url(../images/adeolu-eletu-E7RLgUjjazc-unsplash\ 1.png);
+        }
+
+        &.item3{
+            background: url(../images/rinson-chory-2vPGGOU-wLA-unsplash\ 1.png);
+        }
+
+        &.item4{
+            background: url(../images/johannes-hofmann-vDmn0V4P7xU-unsplash\ 1.png);
+        }
+        
+
+        .service-caption{
+            a{
+                color: $white;
+                &:hover{
+                    text-decoration: none;
+                    color: $primaryGreeen;
+                }
+            }
+            .cap1{
+                font-size: 1.3rem;
+                font-weight: 600;
+            }
+        }
+        
+    }
+}
+
+.why-choose-us{
+    background-color: $blendModeBlack;
+    background-image: url(../images/brendan-church-pKeF6Tt3c08-unsplash\ 1.png);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+
+    .why-choose-us-grid-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-rows: auto;
+        // grid-template-columns: 1fr 1fr;
+        // grid-auto-rows: 200px;
+        grid-gap: 10px;
+        
+        div:nth-child(even), div:nth-child(odd){
+            .card{
+                height: 100%;
+            }
+        }
+
+        .column-item-1{
+            grid-column: 1/3;
+        }
+
+        .column-item-2{
+            grid-column: 1/3;
+        }
+
+        .column-item-3{
+            grid-column: 1/3;
+        }
+
+        .column-item-4{
+            grid-column: 1/3;
+        }
+    }
+
+    .section-title{
+        color: $white;
+    }
+    
+}
+
+.pme-rate{
+
+    .pme-rates-items{
+        // padding-left: 0;
+        list-style-image: url(../images/Ellipse\ 2.png);
+        li{
+            margin-top: 1.4em;
+
+            h4{
+                color: $secondaryGreen;
+            }
+
+            p{
+                font-weight: 500;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+.services, .why-choose-us, .pme-rate{
+    margin-top: 6em;
+}
+
+
+.request-quote{
+    background-color: $secondaryGreen2;
+    color: $white;
+    margin-top: 5em;
+    // display: flex;
+    // align-items: center;
+
+    p{
+        padding: .375rem .75rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .request-quote-button{
+        background-color: $primaryGreeen;
+        color: #004400;
+        font-weight: 600;
+    }
+}
+
+.customers-reviews{
+    .section-title{
+        margin-top: 7em;
+        margin-bottom: 2em;
+    }
+}
+
+.main-footer{
+    background-color: black;
+    color: $white;
+    margin: 0;
+    // display: flex;
+
+    a{
+        text-decoration: none;
+        color: $primaryGreeen;
+
+        &:hover, &:focus {
+            color: $white;
+        }
+    }
+
+    ul{
+        padding: 0;
+    li{
+        list-style: none;
+        margin-top: 1em;
+    }
+    }
+
+    .social-icons{
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.4rem;
+    }
+}
+
+
+
+@media(min-width: 768px){
+
+    
+    .services-list{
+
+        display: flex;
+        justify-content: space-between;
+
+        .services-item{
+            flex-basis: 24%;
+        }
+    }
+    
+    .why-choose-us{
+        .why-choose-us-grid-container{
+
+            .column-item-1{
+                grid-column: 1/2;
+            }
+
+            .column-item-2{
+                grid-column: 2/3;
+            }
+
+            .column-item-3{
+                grid-column: 1/2;
+            }
+
+            .column-item-4{
+                grid-column: 2/3;
+            }
+        }
+    }
+}
