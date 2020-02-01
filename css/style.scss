@@ -328,14 +328,13 @@ button, a.btn{
 
     ul{
         padding: 0;
-    li{
-        list-style: none;
-        margin-top: 1em;
-    }
+        li{
+            list-style: none;
+            margin-top: 1em;
+        }
     }
 
     .social-icons{
-        width: 40%;
         display: flex;
         justify-content: space-between;
         font-size: 1.4rem;
@@ -376,5 +375,10 @@ button, a.btn{
                 grid-column: 2/3;
             }
         }
+    }
+
+    
+    .social-icons{
+        width: 40%;
     }
 }

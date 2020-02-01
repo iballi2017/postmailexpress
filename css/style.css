@@ -194,7 +194,6 @@ button, a.btn {
       list-style: none;
       margin-top: 1em; }
   .main-footer .social-icons {
-    width: 40%;
     display: flex;
     justify-content: space-between;
     font-size: 1.4rem; }
@@ -213,6 +212,9 @@ button, a.btn {
   .why-choose-us .why-choose-us-grid-container .column-item-3 {
     grid-column: 1/2; }
   .why-choose-us .why-choose-us-grid-container .column-item-4 {
-    grid-column: 2/3; } }
+    grid-column: 2/3; }
+
+  .social-icons {
+    width: 40%; } }
 
 /*# sourceMappingURL=style.css.map */
