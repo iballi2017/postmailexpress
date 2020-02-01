@@ -193,6 +193,10 @@ button, a.btn {
     .main-footer ul li {
       list-style: none;
       margin-top: 1em; }
+    .main-footer ul .footer-column-title {
+      font-size: 1rem; }
+    .main-footer ul .footer-links {
+      font-size: .8rem; }
   .main-footer .social-icons {
     display: flex;
     justify-content: space-between;
