@@ -79,6 +79,11 @@ button, a.btn{
 
 // global   ####################
 
+
+    .nav-link{
+        font-weight: 300;
+    }
+
     .navbar-brand{
         text-indent: -100000px;
         h2{
@@ -101,8 +106,70 @@ button, a.btn{
     }
 // ####################
 
+.background-with-image{
+    background-color: $blendModeBlack;
+    background-image: url(../images/main-navbar-background.png);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    transition: background-color 250ms;
+
+    .navbar-nav {
+        .nav-item.active, .nav-item:hover{
+            // background-color: red !important;
+        .nav-link{
+            color: $primaryGreeen;
+           }
+        }
+        .nav-link{
+         color: $white;
+        }
+    }
+}
+
+.background-without-image{
+    background-color: $blendModeBlack;
+    transition: background-color 250ms;
+    // background-image: url(../images/main-navbar-background.png);
+    // background-blend-mode: soft-light;
+    // background-size: cover;
+
+    .navbar-nav {
+        .nav-item.active, .nav-item:hover{
+            // background-color: red !important;
+        .nav-link{
+            color: $primaryGreeen;
+           }
+        }
+        .nav-link{
+         color: $white;
+        }
+    }
+}
 
 
+.shippingToggle:hover > .shippingDropdownItem{
+    display: block;
+    transform: scale(1);
+}
+
+.servicesToggle:hover > .servicesDropdownItem{
+    display: block;
+    transform: scale(1);
+}
+
+.main-nav-item-dropdown{
+    background-color: $blendModeBlack;
+    border: none;
+    padding: 1em;
+    .dropdown-item{
+        color: #FEFEFE;
+        font-weight: 200;
+
+        &:hover, &:focus{
+            color: $primaryGreeen;
+        }
+    }
+}
 
 
 .user-account-nav{
@@ -114,13 +181,13 @@ button, a.btn{
         color: $white;
     
         &:hover{
-            color: $secondaryGreen2;
+            color: $primaryGreeen;
         }
         &:focus{
             text-decoration: underline;
         }
         &.active{
-            color: $secondaryGreen2;
+            color: $primaryGreeen;
         }
     }
 }
