@@ -27,7 +27,7 @@ body{
 
 
 
-// component   ####################
+// ####################   Component   ####################
 button, a.btn{
     border-radius: 0 !important;
 }
@@ -42,8 +42,6 @@ button, a.btn{
 }
 
 .form-control[type='text']{
-    // background-color: red !important;
-    // border: none;
     border-radius: 0;
 
     &:focus{
@@ -72,10 +70,6 @@ button, a.btn{
     background-color: $primaryGreenRGBA;
 }
 
-// ####################
-
-
-
 
 // global   ####################
 
@@ -103,6 +97,14 @@ button, a.btn{
 
     .rating-star{
         color: #CA940B;
+    }
+
+
+    .title-component-wrapper{
+        background-color: $blendModeBlack;
+        background-image: url(../images/main-navbar-background.png);
+        background-blend-mode: soft-light;
+        background-size: cover;
     }
 // ####################
 

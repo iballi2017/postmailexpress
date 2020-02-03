@@ -58,6 +58,12 @@ button, a.btn {
 .rating-star {
   color: #CA940B; }
 
+.title-component-wrapper {
+  background-color: #131212;
+  background-image: url(../images/main-navbar-background.png);
+  background-blend-mode: soft-light;
+  background-size: cover; }
+
 .background-with-image {
   background-color: #131212;
   background-image: url(../images/main-navbar-background.png);
