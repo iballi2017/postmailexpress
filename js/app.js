@@ -75,6 +75,8 @@ $(document).ready(function(){
     });
 })
 
+
+// changing the background of the main navigation bar
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
