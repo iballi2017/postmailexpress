@@ -50,50 +50,55 @@ include_once '../includes/header.php'; ?>
                     </div>
                     <div class="row">
                         <div class="col">
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead class="table-head border-left">
-                                    <tr>
-                                        <th scope="col">Date</th>
-                                        <th scope="col">Tracking ID</th>
-                                        <th scope="col">Picked From</th>
-                                        <th scope="col">Number of Packages</th>
-                                        <th scope="col">Amount Paid</th>
-                                        <th scope="col">Status</th>
-                                        <th scope="col">Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="table-body">
-                                    <tr>
-                                        <th scope="row">03/02/2020</th>
-                                        <td>00000000000001a</td>
-                                        <td>Lagos</td>
-                                        <td>3</td>
-                                        <td>#2,300</td>
-                                        <td>Delivered</td>
-                                        <td><small class="cancelled-state">Cancelled</small></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">03/02/2020</th>
-                                        <td>00000000000001a</td>
-                                        <td>Lagos</td>
-                                        <td>3</td>
-                                        <td>#2,300</td>
-                                        <td>Delivered</td>
-                                        <td><small class="delivered-state">Delivered</small></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">03/02/2020</th>
-                                        <td>00000000000001a</td>
-                                        <td>Lagos</td>
-                                        <td>3</td>
-                                        <td>#2,300</td>
-                                        <td>Delivered</td>
-                                        <td><small class="processing-state">Processing...</small></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead class="table-head border-left">
+                                        <tr>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Tracking ID</th>
+                                            <th scope="col">Picked From</th>
+                                            <th scope="col">Number of Packages</th>
+                                            <th scope="col">Amount Paid</th>
+                                            <th scope="col">Status</th>
+                                            <th scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-body">
+                                        <tr>
+                                            <th scope="row">03/02/2020</th>
+                                            <td>00000000000001a</td>
+                                            <td>Lagos</td>
+                                            <td>3</td>
+                                            <td>#2,300</td>
+                                            <td>Delivered</td>
+                                            <td><small class="cancelled-state">Cancelled</small></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">03/02/2020</th>
+                                            <td>00000000000001a</td>
+                                            <td>Lagos</td>
+                                            <td>3</td>
+                                            <td>#2,300</td>
+                                            <td>Delivered</td>
+                                            <td><small class="delivered-state">Delivered</small></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">03/02/2020</th>
+                                            <td>00000000000001a</td>
+                                            <td>Lagos</td>
+                                            <td>3</td>
+                                            <td>#2,300</td>
+                                            <td>Delivered</td>
+                                            <td><small class="processing-state">Processing...</small></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            
+                            <div class="alert alert-info text-center" role="alert">
+                                No Record Found!
+                            </div>
                         </div>
                     </div>
                 </div>
