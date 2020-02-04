@@ -2,12 +2,15 @@
 include_once ("../includes/header.php");
 
 ?>
+<main class="schedule-pick-up-page">
 
-<?php
+    <section class="title-component-wrapper py-5">
+        <div class="container">
+            <h1 class="page-title">Schedule Pickup</h1>
+        </div>
+    </section>
 
-    include_once("../includes/title-component.php");
-?>
-
+</main>
 
 <?php
 include_once ("../includes/footer.php");

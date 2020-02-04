@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Postmailexpress</title>
+    <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
     <!-- Animate css -->
     <link rel="stylesheet" href="../animate.css">
     <!-- Bootstrap 4.4.1 -->
     <link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css">
-    <!-- Owl carousel 2-2.3.4 -->
-    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
     <!-- custom owl carousel -->
     <link rel="stylesheet" href="../css/custom.owl.css">
     <!-- custom css -->
@@ -32,13 +31,13 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <i class="fas menu-button-icon fa-ellipsis-v fa-1x"></i>
+                    <i class="fas green-icon fa-ellipsis-v fa-1x"></i>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="../index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Track</a>
@@ -85,33 +84,21 @@
                             <a class="nav-link" href="#">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Login</a>
+                            <a class="nav-link" href="../user/login.php">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link" href="../user/register.php">Register</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <div class="user-account-nav">
-            <div class="container">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Payment</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Settings</a>
-                    </li>
-                    <li class="nav-item ml-auto">
-                        <a class="nav-link" href="#">Wallet Balance: #2,300</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+
+        <!-- user-account-nav -->
+        <?php
+            // include_once ("../includes/user-account-nav.php");
+        ?>
+        <!-- user-account-nav -->
         <!-- /navigation -->
     </div>
