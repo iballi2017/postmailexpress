@@ -5,8 +5,15 @@ body {
   margin: 0;
   padding: 0; }
 
+.index-body {
+  background-color: #131212;
+  background-image: url(../images/frank-mckenna-tjX_sniNzgQ-unsplash\ 1.png);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-attachment: fixed; }
+
 button,
-a.btn {
+a.btn, .btn {
   border-radius: 0 !important; }
 
 #eye-btn2, #eye-btn1 {
@@ -32,6 +39,9 @@ a.btn {
     color: #ffffff;
     background-color: #116611; }
 
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
 form, .top-page-container {
   background-color: rgba(136, 204, 136, 0.07);
   padding: 2em; }
@@ -67,16 +77,44 @@ form, .top-page-container {
     inset: 0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6); }
 
+.back-button {
+  background-color: unset;
+  border: none; }
+  .back-button::after {
+    content: "\f0e2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; }
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
 .link {
   color: #2d882d; }
   .link:hover {
     text-decoration: none;
     color: #88cc88; }
 
-.navbar-toggler {
+.nav-link {
+  font-weight: 600;
+  color: #ffffff; }
+
+.navbar-brand {
+  text-indent: -100000px; }
+  .navbar-brand h2 {
+    background-image: url("../images/PostMailExpress.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 120px;
+    height: 40px; }
+
+.menu-button-icon {
+  color: #D7D900;
   border: 0;
   box-shadow: 0; }
-  .navbar-toggler:focus {
+  .menu-button-icon:focus {
     border: 1px solid #88cc88;
     outline: 0;
     inset: 0;
@@ -88,18 +126,6 @@ form, .top-page-container {
 .review-card {
   background-color: rgba(136, 204, 136, 0.12); }
 
-.nav-link {
-  font-weight: 300; }
-
-.navbar-brand {
-  text-indent: -100000px; }
-  .navbar-brand h2 {
-    background-image: url("../images/PostMailExpress.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 120px;
-    height: 40px; }
-
 .section-title {
   text-transform: uppercase;
   margin-top: 5em;
@@ -107,11 +133,13 @@ form, .top-page-container {
 
 .form-title {
   color: #2d882d;
-  margin-bottom: 2em;
   text-transform: uppercase; }
 
 .rating-star {
   color: #ca940b; }
+
+.text-action {
+  color: #D7D900; }
 
 .title-component-wrapper {
   background-color: #131212;
@@ -132,7 +160,7 @@ form, .top-page-container {
   background-color: rgba(136, 204, 136, 0.07);
   border: none; }
 
-.cancelled-state {
+.cancelled-state, .error {
   color: #dc3545; }
 
 .delivered-state {
@@ -144,26 +172,24 @@ form, .top-page-container {
 th, td {
   text-align: center; }
 
+.main-navigation .navbar-nav .nav-item {
+  padding-left: .5em; }
+.main-navigation .navbar-nav .nav-item.active .nav-link,
+.main-navigation .navbar-nav .nav-item:hover .nav-link {
+  color: #88cc88; }
+.main-navigation .navbar-nav .nav-link {
+  color: #ffffff; }
+
 .background-with-image {
   background-color: #131212;
   background-image: url(../images/main-navbar-background.png);
   background-blend-mode: soft-light;
   background-size: cover;
   transition: background-color 250ms; }
-  .background-with-image .navbar-nav .nav-item.active .nav-link,
-  .background-with-image .navbar-nav .nav-item:hover .nav-link {
-    color: #88cc88; }
-  .background-with-image .navbar-nav .nav-link {
-    color: #ffffff; }
 
 .background-without-image {
   background-color: #131212;
   transition: background-color 250ms; }
-  .background-without-image .navbar-nav .nav-item.active .nav-link,
-  .background-without-image .navbar-nav .nav-item:hover .nav-link {
-    color: #88cc88; }
-  .background-without-image .navbar-nav .nav-link {
-    color: #ffffff; }
 
 .shippingToggle:hover > .shippingDropdownItem {
   display: block;
@@ -197,11 +223,7 @@ th, td {
       color: #88cc88; }
 
 .hero-container {
-  height: 80vh;
-  background-color: #131212;
-  background-image: url(../images/frank-mckenna-tjX_sniNzgQ-unsplash\ 1.png);
-  background-size: cover;
-  background-blend-mode: soft-light; }
+  height: 80vh; }
 
 .hero-content {
   height: 100%;
@@ -278,25 +300,22 @@ th, td {
   .why-choose-us .section-title {
     color: #ffffff; }
 
-.pme-rate .pme-rates-items {
-  list-style-image: url(../images/ellipse\ 2.png); }
-  .pme-rate .pme-rates-items li {
-    margin-top: 1.4em; }
-    .pme-rate .pme-rates-items li h4 {
-      color: #116611; }
-    .pme-rate .pme-rates-items li p {
-      font-weight: 500;
-      font-size: 1.2rem; }
-
-.services,
-.why-choose-us,
 .pme-rate {
-  margin-top: 6em; }
+  background-color: #ffffff;
+  padding-bottom: 3em; }
+  .pme-rate .pme-rates-items {
+    list-style-image: url(../images/ellipse\ 2.png); }
+    .pme-rate .pme-rates-items li {
+      margin-top: 1.4em; }
+      .pme-rate .pme-rates-items li h4 {
+        color: #116611; }
+      .pme-rate .pme-rates-items li p {
+        font-weight: 500;
+        font-size: 1.2rem; }
 
 .request-quote {
   background-color: #2d882d;
-  color: #ffffff;
-  margin-top: 5em; }
+  color: #ffffff; }
   .request-quote p {
     padding: 0.375rem 0.75rem;
     font-size: 1.2rem;
@@ -306,9 +325,10 @@ th, td {
     color: #004400;
     font-weight: 600; }
 
-.customers-reviews .section-title {
-  margin-top: 7em;
-  margin-bottom: 2em; }
+.customers-reviews {
+  background-color: #ffffff; }
+  .customers-reviews .section-title {
+    margin-bottom: 2em; }
 
 .main-footer {
   background-color: black;
@@ -359,5 +379,11 @@ th, td {
 
   .social-icons {
     width: 40%; } }
+@media (min-width: 900px) {
+  .slide-content {
+    margin-top: 5em !important; }
+
+  .hero-content h2 {
+    font-size: 2.5em !important; } }
 
 /*# sourceMappingURL=style.css.map */

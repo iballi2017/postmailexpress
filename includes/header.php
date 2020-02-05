@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="../animate.css">
     <!-- Bootstrap 4.4.1 -->
     <link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css">
-
+    <!-- Owl carousel 2-2.3.4 -->
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <!-- custom owl carousel -->
     <link rel="stylesheet" href="../css/custom.owl.css">
     <!-- custom css -->
@@ -25,7 +27,7 @@
         <!-- navigation -->
         <nav class="navbar navbar-expand-lg navbar-light main-navigation">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href=".././">
                     <h2>Navbar</h2>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -78,16 +80,22 @@
                             <a class="nav-link" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="../user/contact-us.php">Contact Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../user/user-dashboard.php" class="nav-link"><i class="fas fa-user-circle" style="font-size: 1.2rem"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../user/login.php">Login</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../user/register.php">Register</a>
+                        </li>
+                        <li class="nav-item btn px-3 green-button">
+                            Logout
                         </li>
                     </ul>
                 </div>
@@ -97,7 +105,7 @@
 
         <!-- user-account-nav -->
         <?php
-            // include_once ("../includes/user-account-nav.php");
+            include_once ("../includes/user-account-nav.php");
         ?>
         <!-- user-account-nav -->
         <!-- /navigation -->

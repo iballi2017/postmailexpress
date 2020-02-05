@@ -17,7 +17,7 @@ include_once ("../includes/header.php");
           
         <div class="row">
             <div class="col">
-            <h5 class="form-title">Change Your Password</h5>
+            <h5 class="form-title mb-5">Change Your Password</h5>
             </div>
         </div>
 

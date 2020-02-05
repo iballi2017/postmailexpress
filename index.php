@@ -20,19 +20,20 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="index-body">
 
-    <div class="sticky-top main-navigation-container background-with-image">
+    <!-- <div class="sticky-top main-navigation-container background-with-image"> -->
+    <div class="sticky-top index-main-navigation-container">
         <!-- navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light main-navigation">
+        <nav class="navbar navbar-expand-lg main-navigation">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="./index.php">
                     <h2>Navbar</h2>
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                <button class="navbar-toggler menu-button-icon" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <i class="fas menu-button-icon fa-ellipsis-v fa-1x"></i>
+                    <i class="fas fa-ellipsis-v fa-1x"></i>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,7 +49,8 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Shipping
                             </a>
-                            <div class="dropdown-menu shippingDropdownItem main-nav-item-dropdown animated fadeInUp faster" aria-labelledby="navbarShippingDropdown">
+                            <div class="dropdown-menu shippingDropdownItem main-nav-item-dropdown animated fadeInUp faster"
+                                aria-labelledby="navbarShippingDropdown">
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Schedule Pickup</a>
                                 <div class="dropdown-divider"></div>
@@ -63,7 +65,8 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Services
                             </a>
-                            <div class="dropdown-menu servicesDropdownItem main-nav-item-dropdown animated fadeInUp faster" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu servicesDropdownItem main-nav-item-dropdown animated fadeInUp faster"
+                                aria-labelledby="navbarDropdown">
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Express Delivery</a>
                                 <div class="dropdown-divider"></div>
@@ -79,16 +82,22 @@
                             <a class="nav-link" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="./user/contact-us.php">Contact Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./user/user-dashboard.php" class="nav-link"><i class="fas fa-user-circle" style="font-size: 1.2rem"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./user/login.php">Login</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./user/register.php">Register</a>
+                        </li>
+                        <li class="nav-item btn px-3 green-button">
+                            Logout
                         </li>
                     </ul>
                 </div>
@@ -99,7 +108,7 @@
             <div class="container">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Dashboard</a>
+                        <a class="nav-link active" href="./user/user-dashboard.php">Dashboard</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Payment</a>
@@ -118,7 +127,7 @@
 
     <div class="hero-container">
 
-        <div class="slide-content">
+        <div class="slide-content my-4">
 
             <div class="container">
                 <div class="row">
@@ -128,32 +137,23 @@
                         <div class="owl-carousel owl-theme hero-text-slider pt-4 container" style="color: white;">
                             <div class="hero-content">
                                 <div class="content-inner text-center">
-                                    <h2>Sed ut perspiciatis unde omnis iste natus</h2>
-                                    <p> Various versions have evolved over the years, sometimes by accident, sometimes
-                                        on
-                                        purpose (injected humour and the like).</p>
+                                    <h2 class="animated fadeIn delay">Special Delivery <span class="text-action">Van Hire</span> Service Available to Major Towns & Cities
+                                    </h2>
 
-                                    <a href="#" class="btn green-button shadow">Make Your Shipping</a>
+                                    <a href="#" class="btn btn-lg green-button shadow mt-4">Make Your Shipping</a>
                                 </div>
                             </div>
                             <div class="hero-content">
                                 <div class="content-inner text-center">
-                                    <h2>Sed ut perspiciatis unde omnis iste natus</h2>
-                                    <p> Various versions have evolved over the years, sometimes by accident, sometimes
-                                        on
-                                        purpose (injected humour and the like).</p>
+                                    <h2 class="animated fadeIn delay">Effective & Efficient <span class="text-action">Delivery Service</span> </h2>
 
-                                    <a href="#" class="btn green-button shadow">Request Quote</a>
+                                    <a href="#" class="btn btn-lg green-button shadow mt-4">Request Quote</a>
                                 </div>
                             </div>
                             <div class="hero-content">
                                 <div class="content-inner text-center">
-                                    <h3>Sed ut perspiciatis unde omnis iste natus</h3>
-                                    <p> Various versions have evolved over the years, sometimes by accident, sometimes
-                                        on
-                                        purpose (injected humour and the like).</p>
-
-                                    <a href="#" class="btn green-button shadow">Hire a Van</a>
+                                    <h2 class="animated fadeIn delay">Your Best Options For <span class="text-action">Sending Mails & Packages</span> </h2>
+                                    <a href="#" class="btn btn-lg green-button shadow mt-4">Hire a Van</a>
                                 </div>
                             </div>
                         </div>
@@ -192,73 +192,75 @@
     <!-- main -->
 
 
-    <section class="container services">
-        <div class="row">
-            <div class="col">
-                <h4 class="text-center mt-5 mb-5 section-title">Services</h4>
+    <section class="container-fluid services bg-white pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4 class="text-center mt-5 mb-5 section-title">Services</h4>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
+            <div class="row">
+                <div class="col">
 
+                </div>
             </div>
+
+
+
+            <ul class="services-list">
+                <li class="services-item item1">
+                    <div class="text-center">
+                        <h2>
+                            <i class="fas rating-star fa-history fa-1x"></i>
+                        </h2>
+                        <p class="service-caption">
+                            <a href="#">
+                                <span class="cap1">Next Day</span><br /><span class="cap2">
+                                    Delivery
+                                    Service
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                </li>
+                <li class="services-item item2">
+                    <div class="text-center">
+                        <h2><i class="fas rating-star fa-business-time"></i></h2>
+                        <p class="service-caption">
+                            <a href="#">
+                                <span class="cap1">2-3 Business Days</span><br /><span class="cap2">
+                                    Delivery
+                                    Service
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                </li>
+                <li class="services-item item3">
+                    <div class="text-center">
+                        <h2><i class="fas rating-star fa-ship"></i></h2>
+                        <p class="service-caption">
+                            <a href="#">
+                                <span class="cap1">Cargo Delivery</span><br /><span class="cap2">
+                                    To Most States in Nigeria
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                </li>
+                <li class="services-item item4">
+                    <div class="text-center">
+                        <h2><i class="fas rating-star fa-truck"></i></h2>
+                        <p class="service-caption">
+                            <a href="#"><span class="cap1">Van Hire</span><br /><span class="cap2">
+                                    Service
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </div>
-
-
-
-        <ul class="services-list">
-            <li class="services-item item1">
-                <div class="text-center">
-                    <h2>
-                        <i class="fas rating-star fa-history fa-1x"></i>
-                    </h2>
-                    <p class="service-caption">
-                        <a href="#">
-                            <span class="cap1">Next Day</span><br /><span class="cap2">
-                                Delivery
-                                Service
-                            </span>
-                        </a>
-                    </p>
-                </div>
-            </li>
-            <li class="services-item item2">
-                <div class="text-center">
-                    <h2><i class="fas rating-star fa-business-time"></i></h2>
-                    <p class="service-caption">
-                        <a href="#">
-                            <span class="cap1">2-3 Business Days</span><br /><span class="cap2">
-                                Delivery
-                                Service
-                            </span>
-                        </a>
-                    </p>
-                </div>
-            </li>
-            <li class="services-item item3">
-                <div class="text-center">
-                    <h2><i class="fas rating-star fa-ship"></i></h2>
-                    <p class="service-caption">
-                        <a href="#">
-                            <span class="cap1">Cargo Delivery</span><br /><span class="cap2">
-                                To Most States in Nigeria
-                            </span>
-                        </a>
-                    </p>
-                </div>
-            </li>
-            <li class="services-item item4">
-                <div class="text-center">
-                    <h2><i class="fas rating-star fa-truck"></i></h2>
-                    <p class="service-caption">
-                        <a href="#"><span class="cap1">Van Hire</span><br /><span class="cap2">
-                                Service
-                            </span>
-                        </a>
-                    </p>
-                </div>
-            </li>
-        </ul>
     </section>
 
 
@@ -406,7 +408,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h4 class="text-center section-title">Customer's Reviews</h4>
+                    <h4 class="text-center my-5 section-title">Customer's Reviews</h4>
                 </div>
             </div>
 
@@ -525,13 +527,17 @@
                             <strong>Abuja Office:</strong><br />
                             No. 1, F1 Close beside Federal Mortgage Bank, First Avenue, Federal Housing Estate, Lugbe
                             District, Abuja. Nigeria.</li> -->
-                        <li><i class="fas fa-phone-square-alt"></i> <span class="phone-number">+234 7065 543 455</span c><br />
-                            <i class="fas fa-envelope"></i> <span class="email-address">admin@gmail.com</span class="phone-number"></li>
+                        <li><i class="fas fa-phone-square-alt contact-icon"></i> <span class="phone-number">+234 7065 543 455</span
+                                c><br />
+                            <i class="fas fa-envelope contact-icon"></i> <span class="email-address">admin@gmail.com</span
+                                class="phone-number"></li>
                     </ul>
                 </div>
                 <div class="col-6 col-lg-3">
                     <ul>
-                        <li><h5 class="footer-column-title">Quick Links</h5></li>
+                        <li>
+                            <h5 class="footer-column-title">Quick Links</h5>
+                        </li>
                         <li>
                             <a href="#" class="footer-links">Request Quote</a>
                         </li>
@@ -545,7 +551,9 @@
                 </div>
                 <div class="col-6 col-lg-3">
                     <ul>
-                        <li><h5 class="footer-column-title">Services</h5></li>
+                        <li>
+                            <h5 class="footer-column-title">Services</h5>
+                        </li>
                         <li>
                             <a href="#" class="footer-links">Special delivery</a>
                         </li>
@@ -562,7 +570,9 @@
                 </div>
                 <div class="col-6 col-lg-3">
                     <ul>
-                        <li><h5 class="footer-column-title"></h5>Social Media</h5></li>
+                        <li>
+                            <h5 class="footer-column-title"></h5>Social Media</h5>
+                        </li>
                         <li>
                             <ul class="social-icons">
                                 <li><a href="#"><i class="fab fa-facebook-square"></i></a>
@@ -576,25 +586,25 @@
                     </ul>
                 </div>
             </div>
-        </div>   
-        
-        
-        
-        
+        </div>
+
+
+
+
     </footer>
 
     <!-- /footer -->
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
     <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="./js/app.js"></script>
 </body>

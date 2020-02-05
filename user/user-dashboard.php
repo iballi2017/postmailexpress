@@ -15,7 +15,7 @@ include_once '../includes/header.php'; ?>
 
                     <div class="row">
                         <div class="col">
-                            <h5 class="form-title">User Information</h5>
+                            <h5 class="form-title mb-5">User Information</h5>
                         </div>
                     </div>
 
@@ -60,7 +60,6 @@ include_once '../includes/header.php'; ?>
                                             <th scope="col">Number of Packages</th>
                                             <th scope="col">Amount Paid</th>
                                             <th scope="col">Status</th>
-                                            <th scope="col">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody class="table-body">
@@ -70,7 +69,6 @@ include_once '../includes/header.php'; ?>
                                             <td>Lagos</td>
                                             <td>3</td>
                                             <td>#2,300</td>
-                                            <td>Delivered</td>
                                             <td><small class="cancelled-state">Cancelled</small></td>
                                         </tr>
                                         <tr>
@@ -79,7 +77,6 @@ include_once '../includes/header.php'; ?>
                                             <td>Lagos</td>
                                             <td>3</td>
                                             <td>#2,300</td>
-                                            <td>Delivered</td>
                                             <td><small class="delivered-state">Delivered</small></td>
                                         </tr>
                                         <tr>
@@ -88,7 +85,6 @@ include_once '../includes/header.php'; ?>
                                             <td>Lagos</td>
                                             <td>3</td>
                                             <td>#2,300</td>
-                                            <td>Delivered</td>
                                             <td><small class="processing-state">Processing...</small></td>
                                         </tr>
                                     </tbody>

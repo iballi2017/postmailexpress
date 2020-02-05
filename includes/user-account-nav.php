@@ -4,7 +4,7 @@
             <div class="container">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Dashboard</a>
+                        <a class="nav-link active" href="../user/user-dashboard.php">Dashboard</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Wallet</a>

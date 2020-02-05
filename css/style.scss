@@ -9,15 +9,25 @@ $blendModeBlack: #131212;
 $successColor: #28a745;
 $secondaryColor: #6c757d;
 $dangerColor: #dc3545;
+$TepGreencolor: #D7D900;
 
 * {
   box-sizing: border-box;
 }
 
-body {
+body{
   margin: 0;
   padding: 0;
 }
+
+.index-body {
+  background-color: $blendModeBlack;
+  background-image: url(../images/frank-mckenna-tjX_sniNzgQ-unsplash\ 1.png);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 
 // typography   ####################
 
@@ -25,7 +35,7 @@ body {
 
 // ####################   Component   ####################
 button,
-a.btn {
+a.btn, .btn {
   border-radius: 0 !important;
 }
 
@@ -65,6 +75,13 @@ a.btn {
   }
 }
 
+
+
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+
 form, .top-page-container {
   background-color: $contentMatColor;
   padding: 2em;
@@ -89,6 +106,8 @@ form, .top-page-container {
 //   color: #ffffff;
 //   background-color: #f3969a;
 // }
+
+
 .custom-control-input:checked~.custom-control-label::before {
     color: #fff;
     border-color: $secondaryGreen;
@@ -114,37 +133,40 @@ form, .top-page-container {
   }
 }
 
-.link{
-    color: $secondaryGreen2;
 
-    &:hover{
-        text-decoration: none;
-        color: $primaryGreeen;
-    }
-}
-
-.navbar-toggler {
-  border: 0;
-  box-shadow: 0;
-  &:focus {
-    border: 1px solid $primaryGreeen;
-    outline: 0;
-    inset: 0;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
+.back-button{
+  background-color: unset;
+  border: none;
+  
+  &::after{
+    content: "\f0e2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
   }
 }
-.green-icon {
-  color: $secondaryGreen;
-}
 
-.review-card {
-  background-color: $primaryGreenRGBA;
-}
 
-// global   ####################
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+
+.link{
+  color: $secondaryGreen2;
+
+  &:hover{
+      text-decoration: none;
+      color: $primaryGreeen;
+  }
+}
 
 .nav-link {
-  font-weight: 300;
+  font-weight: 600;
+  color: $white;
+  // text-transform: capitalize !important;
 }
 
 .navbar-brand {
@@ -157,6 +179,35 @@ form, .top-page-container {
     height: 40px;
   }
 }
+
+
+.menu-button-icon{
+  color: $TepGreencolor;
+  border: 0;
+  box-shadow: 0;
+  &:focus {
+    border: 1px solid $primaryGreeen;
+    outline: 0;
+    inset: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
+  }
+}
+
+
+.green-icon {
+  color: $secondaryGreen;
+}
+
+.review-card {
+  background-color: $primaryGreenRGBA;
+}
+
+
+
+
+// global   ####################
+
+
 .section-title {
   text-transform: uppercase;
   margin-top: 5em;
@@ -165,12 +216,15 @@ form, .top-page-container {
 
 .form-title{
     color: $secondaryGreen2;
-    margin-bottom: 2em;
     text-transform: uppercase;
 }
 
 .rating-star {
   color: #ca940b;
+}
+
+.text-action{
+  color: $TepGreencolor;
 }
 
 .title-component-wrapper {
@@ -196,7 +250,7 @@ form, .top-page-container {
   border: none;
 }
 
-.cancelled-state{
+.cancelled-state, .error{
   color: $dangerColor;
 }
 
@@ -216,17 +270,14 @@ th, td{
 
 // ####################
 
-.background-with-image {
-  background-color: $blendModeBlack;
-  background-image: url(../images/main-navbar-background.png);
-  background-blend-mode: soft-light;
-  background-size: cover;
-  transition: background-color 250ms;
+.main-navigation{
 
   .navbar-nav {
+    .nav-item{
+      padding-left: .5em;
+    }
     .nav-item.active,
     .nav-item:hover {
-      // background-color: red !important;
       .nav-link {
         color: $primaryGreeen;
       }
@@ -237,25 +288,17 @@ th, td{
   }
 }
 
+.background-with-image {
+  background-color: $blendModeBlack;
+  background-image: url(../images/main-navbar-background.png);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  transition: background-color 250ms;
+}
+
 .background-without-image {
   background-color: $blendModeBlack;
   transition: background-color 250ms;
-  // background-image: url(../images/main-navbar-background.png);
-  // background-blend-mode: soft-light;
-  // background-size: cover;
-
-  .navbar-nav {
-    .nav-item.active,
-    .nav-item:hover {
-      // background-color: red !important;
-      .nav-link {
-        color: $primaryGreeen;
-      }
-    }
-    .nav-link {
-      color: $white;
-    }
-  }
 }
 
 .shippingToggle:hover > .shippingDropdownItem {
@@ -305,10 +348,10 @@ th, td{
 
 .hero-container {
   height: 80vh;
-  background-color: $blendModeBlack;
-  background-image: url(../images/frank-mckenna-tjX_sniNzgQ-unsplash\ 1.png);
-  background-size: cover;
-  background-blend-mode: soft-light;
+  // background-color: $blendModeBlack;
+  // background-image: url(../images/frank-mckenna-tjX_sniNzgQ-unsplash\ 1.png);
+  // background-size: cover;
+  // background-blend-mode: soft-light;
 }
 
 .hero-content {
@@ -432,6 +475,8 @@ th, td{
 }
 
 .pme-rate {
+  background-color: $white;
+  padding-bottom: 3em;
   .pme-rates-items {
     // padding-left: 0;
     list-style-image: url(../images/ellipse\ 2.png);
@@ -450,16 +495,10 @@ th, td{
   }
 }
 
-.services,
-.why-choose-us,
-.pme-rate {
-  margin-top: 6em;
-}
-
 .request-quote {
   background-color: $secondaryGreen2;
   color: $white;
-  margin-top: 5em;
+  // margin-top: 5em;
   // display: flex;
   // align-items: center;
 
@@ -477,8 +516,8 @@ th, td{
 }
 
 .customers-reviews {
+  background-color: $white;
   .section-title {
-    margin-top: 7em;
     margin-bottom: 2em;
   }
 }
@@ -522,6 +561,8 @@ th, td{
     justify-content: space-between;
     font-size: 1.4rem;
   }
+
+  
 }
 
 @media (min-width: 768px) {
@@ -567,5 +608,17 @@ th, td{
 
   .social-icons {
     width: 40%;
+  }
+}
+
+@media (min-width: 900px) {
+  .slide-content{
+    margin-top: 5em !important;
+  }
+
+  .hero-content{
+    h2{
+      font-size: 2.5em !important;
+    }
   }
 }
