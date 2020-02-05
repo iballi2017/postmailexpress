@@ -42,7 +42,7 @@
                             <a class="nav-link" href="./index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Track</a>
+                            <a class="nav-link" href="./user/track-page.php">Track</a>
                         </li>
                         <li class="nav-item dropdown shippingToggle">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarShippingDropdown" role="button"
@@ -54,7 +54,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Schedule Pickup</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Request Quote</a>
+                                <a class="dropdown-item" href="./user/request-quote.php">Request Quote</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Special Delivery</a>
                                 <div class="dropdown-divider"></div>
@@ -199,13 +199,6 @@
                     <h4 class="text-center mt-5 mb-5 section-title">Services</h4>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-
-                </div>
-            </div>
-
-
 
             <ul class="services-list">
                 <li class="services-item item1">
@@ -519,14 +512,6 @@
                                 <h2>Navbar</h2>
                             </a>
                         </li>
-                        <!-- <li>
-                            <strong>Lagos Office:</strong><br />
-                            Suite A5, Nigerian Air Force Shopping Complex Along MM2/International Airport Road Ikeja,
-                            Lagos State. Nigeria.</li>
-                        <li>
-                            <strong>Abuja Office:</strong><br />
-                            No. 1, F1 Close beside Federal Mortgage Bank, First Avenue, Federal Housing Estate, Lugbe
-                            District, Abuja. Nigeria.</li> -->
                         <li><i class="fas fa-phone-square-alt contact-icon"></i> <span class="phone-number">+234 7065 543 455</span
                                 c><br />
                             <i class="fas fa-envelope contact-icon"></i> <span class="email-address">admin@gmail.com</span

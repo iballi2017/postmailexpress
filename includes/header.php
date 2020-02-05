@@ -42,7 +42,7 @@
                             <a class="nav-link" href="../index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Track</a>
+                            <a class="nav-link" href="../user/track-page.php">Track</a>
                         </li>
                         <li class="nav-item dropdown shippingToggle">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarShippingDropdown" role="button"
@@ -53,7 +53,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Schedule Pickup</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Request Quote</a>
+                                <a class="dropdown-item" href="../user/request-quote.php">Request Quote</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Special Delivery</a>
                                 <div class="dropdown-divider"></div>
