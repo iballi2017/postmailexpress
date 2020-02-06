@@ -64,6 +64,9 @@ $(document).ready(function () {
             }
         }
     });
+
+
+
 })
 
 
@@ -110,7 +113,7 @@ $(window).scroll(function () {
 //back to previous page button
 function goBack() {
     window.history.back();
-  }
+}
 
 
 // toggle pasword vissibility
@@ -118,14 +121,18 @@ function showPassword() {
 
     var x = document.getElementById("updateNewPassword");
     var y = document.getElementById("new-passwordIcon");
-    // if the password is in password mode, change to plain text and make the icon clor red
-    if (x.type === "password") {
-        x.type = "text";
-        y.classList.add("text-warning");
-        // if the password is in plain texts, return texts to password mode and return the icon color to green
-    } else {
-        x.type = "password";
-        y.style.color = "#2d882d";
+
+    if (x.value.length > 0) {
+        // if the password is in password mode, change to plain text and make the icon clor red
+        if (x.type === "password") {
+            x.type = "text";
+            y.classList.add("text-warning");
+            // if the password is in plain texts, return texts to password mode and return the icon color to green
+        } else {
+            x.type = "password";
+            y.style.color = "#2d882d";
+            y.classList.remove("text-warning");
+        }
     }
 
 }
@@ -136,14 +143,14 @@ function toggleConfirmPassword() {
     var y = document.getElementById("confirm-passwordIcon");
 
     if (x.value.length > 0) {
-        x.type = "password";
-    }
-    if (x.type === "password") {
-        x.type = "text";
-        y.classList.add("text-warning");
-    } else {
-        x.type = "password";
-        y.style.color = "#2d882d";
+        if (x.type === "password") {
+            x.type = "text";
+            y.classList.add("text-warning");
+        } else {
+            x.type = "password";
+            y.style.color = "#2d882d";
+            y.classList.remove("text-warning");
+        }
     }
 
 }
@@ -151,16 +158,16 @@ function toggleConfirmPassword() {
 
 
 // validating register form
-$(function() {
+$(function () {
     var $registerForm = $("#registerForm");
 
     //###@ creating a custom validator that will call error when a space is inputed into a field
-    $.validator.addMethod("noSpace", function(value, element) {
-        return value == "" || value.trim().length !=0
+    $.validator.addMethod("noSpace", function (value, element) {
+        return value == "" || value.trim().length != 0
     }, "Spaces are not allowed");
     //###@
 
-    if($registerForm.length) {
+    if ($registerForm.length) {
         $registerForm.validate({
             rules: {
                 firstName: {
@@ -196,25 +203,25 @@ $(function() {
                     required: "firstName field cannot be empty"
                 },
                 lastName: {
-                    required:  "Name field cannot be empty"
+                    required: "Name field cannot be empty"
                 },
                 email: {
-                    required:  "Email field cannot be empty"
+                    required: "Email field cannot be empty"
                 },
                 address: {
-                    required:  "Address field cannot be empty"
+                    required: "Address field cannot be empty"
                 },
                 townCity: {
-                    required:  "Town/City field cannot be empty"
+                    required: "Town/City field cannot be empty"
                 },
                 state: {
-                    required:  "State field cannot be empty"
+                    required: "State field cannot be empty"
                 },
                 password: {
-                    required:  "Password field cannot be empty"
+                    required: "Password field cannot be empty"
                 },
                 confirmPassword: {
-                    required:  "Password field cannot be empty",
+                    required: "Password field cannot be empty",
                     equalTo: 'Your password isn\'t the same'
                 }
             }
@@ -223,9 +230,9 @@ $(function() {
 })
 
 // validating login form
-$(function() {
+$(function () {
     var $loginForm = $("#loginForm");
-    if($loginForm.length) {
+    if ($loginForm.length) {
         $loginForm.validate({
             rules: {
                 userId: {

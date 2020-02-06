@@ -370,6 +370,13 @@ th, td {
     justify-content: space-between;
     font-size: 1.4rem; }
 
+.schedule-pick-up-page .sender-info-container, .schedule-pick-up-page .receiver-info-container {
+  background-color: #ffffff;
+  margin-top: 2em;
+  padding: 2em; }
+.schedule-pick-up-page .mobile-update-request-container {
+  background-color: rgba(136, 204, 136, 0.3); }
+
 @media (min-width: 768px) {
   .reg-input-margin-right {
     padding-right: 1em !important; }

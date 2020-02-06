@@ -68,9 +68,7 @@
                             <div class="dropdown-menu servicesDropdownItem main-nav-item-dropdown animated fadeInUp faster"
                                 aria-labelledby="navbarDropdown">
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="./user/delivery-options.php">Express Delivery</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="./user/delivery-options.php">Cargo Delivery</a>
+                                <a class="dropdown-item" href="./user/delivery-options.php">PME Delivery</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Van Hire</a>
                                 <div class="dropdown-divider"></div>

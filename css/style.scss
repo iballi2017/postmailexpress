@@ -593,6 +593,20 @@ th, td{
   
 }
 
+
+.schedule-pick-up-page{
+
+  .sender-info-container, .receiver-info-container{
+    background-color: $white;
+    margin-top: 2em;
+    padding: 2em;
+  }
+
+  .mobile-update-request-container{
+    background-color: $tableHeadBackgroundColor;
+  }
+}
+
 @media (min-width: 768px) {
 
   

@@ -20,20 +20,20 @@ include_once ("../includes/header.php");
                     <ul class="nav nav-pills my-5" id="pills-tab" role="tablist"
                         style="background-color: red; width:100%">
                         <li class="nav-item" style="width:50%">
-                            <a class="nav-link active btn green-button" id="pills-home-tab" data-toggle="pill"
-                                href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Express
+                            <a class="nav-link active btn green-button" id="pills-express-tab" data-toggle="pill"
+                                href="#pills-express" role="tab" aria-controls="pills-express" aria-selected="true">Express
                                 Delivery</a>
                         </li>
                         <li class="nav-item" style="width:50%">
-                            <a class="nav-link btn green-button" id="pills-profile-tab" data-toggle="pill"
-                                href="#pills-profile" role="tab" aria-controls="pills-profile"
+                            <a class="nav-link btn green-button" id="pills-cargo-tab" data-toggle="pill"
+                                href="#pills-cargo" role="tab" aria-controls="pills-cargo"
                                 aria-selected="false">Cargo
                                 Delivery</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show p-4 active" id="pills-home" role="tabpanel"
-                            aria-labelledby="pills-home-tab">
+                        <div class="tab-pane fade show p-4 active" id="pills-express" role="tabpanel"
+                            aria-labelledby="pills-express-tab">
 
                             <div class="express-delivery-tab-inner p-4">
                                 <p>Post Mail Express offers a wide range of delivery services in Lagos and Abuja. Our
@@ -57,8 +57,8 @@ include_once ("../includes/header.php");
                                 </p>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                            aria-labelledby="pills-profile-tab-inner">
+                        <div class="tab-pane fade" id="pills-cargo" role="tabpanel"
+                            aria-labelledby="pills-cargo-tab-inner">
 
                             <div class="cargo-tab p-4">
 
