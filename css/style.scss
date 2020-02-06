@@ -75,7 +75,35 @@ a.btn, .btn {
   }
 }
 
+.delivery-option-page{
+  .nav-pills {
+    .nav-link.active{
+      background-color: $secondaryGreen2 !important;
+      
+      &:hover{
+        background-color: $secondaryGreen !important;
+      }
+    }
 
+    .nav-link{
+      background-color: $primaryGreeen !important;
+
+      &:hover{
+        background-color: $successColor !important;
+      }
+  
+      &:focus {
+        outline: 0;
+        inset: 0;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
+      }
+    }
+  }
+
+  .express-delivery-tab-inner{
+    background-color: $contentMatColor;
+  }
+}
 
 
 /*--------------------------------------------------------------

@@ -52,7 +52,7 @@
                             <div class="dropdown-menu shippingDropdownItem main-nav-item-dropdown animated fadeInUp faster"
                                 aria-labelledby="navbarShippingDropdown">
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Schedule Pickup</a>
+                                <a class="dropdown-item" href="./user/schedule-pickup.php">Schedule Pickup</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="./user/request-quote.php">Request Quote</a>
                                 <div class="dropdown-divider"></div>
@@ -68,9 +68,9 @@
                             <div class="dropdown-menu servicesDropdownItem main-nav-item-dropdown animated fadeInUp faster"
                                 aria-labelledby="navbarDropdown">
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Express Delivery</a>
+                                <a class="dropdown-item" href="./user/delivery-options.php">Express Delivery</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Cargo Delivery</a>
+                                <a class="dropdown-item" href="./user/delivery-options.php">Cargo Delivery</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Van Hire</a>
                                 <div class="dropdown-divider"></div>

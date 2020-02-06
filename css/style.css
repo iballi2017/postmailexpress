@@ -39,6 +39,21 @@ a.btn, .btn {
     color: #ffffff;
     background-color: #116611; }
 
+.delivery-option-page .nav-pills .nav-link.active {
+  background-color: #2d882d !important; }
+  .delivery-option-page .nav-pills .nav-link.active:hover {
+    background-color: #116611 !important; }
+.delivery-option-page .nav-pills .nav-link {
+  background-color: #88cc88 !important; }
+  .delivery-option-page .nav-pills .nav-link:hover {
+    background-color: #28a745 !important; }
+  .delivery-option-page .nav-pills .nav-link:focus {
+    outline: 0;
+    inset: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6); }
+.delivery-option-page .express-delivery-tab-inner {
+  background-color: rgba(136, 204, 136, 0.07); }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
