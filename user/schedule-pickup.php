@@ -2,7 +2,7 @@
 include_once ("../includes/header.php");
 
 ?>
-<main class="schedule-pick-up-page">
+<main class="schedule-pickup-page">
 
     <section class="title-component-wrapper py-5">
         <div class="container">
@@ -248,13 +248,16 @@ include_once ("../includes/header.php");
                             <div class="col">
                                 <div class="custom-control custom-checkbox my-1 mr-sm-2">
                                     <input type="checkbox" class="custom-control-input" id="customControlInline">
-                                    <label class="custom-control-label" for="customControlInline"><strong>Mobile update on shipments [optional]</strong></label>&nbsp;&nbsp;<strong>(#100.00)</strong>
+                                    <label class="custom-control-label" for="customControlInline"><strong>Mobile update
+                                            on shipments
+                                            [optional]</strong></label>&nbsp;&nbsp;<strong>(#100.00)</strong>
                                 </div>
                             </div>
                         </div>
                     </div>
 
 
+                    <a href="./schedule-pickup-confirm.php" class="btn btn-warning shadow mt-4 px-5">Next</a>
 
                     <button class="btn green-button shadow mt-4 px-5" type="submit">Next</button>
                 </form>
@@ -265,6 +268,6 @@ include_once ("../includes/header.php");
 </main>
 
 <?php
-include_once ("../includes/footer.php");
+include_once ("../includes/footer-script.php");
 
 ?>

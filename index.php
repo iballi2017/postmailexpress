@@ -70,20 +70,20 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="./user/delivery-options.php">PME Delivery</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Van Hire</a>
+                                <a class="dropdown-item" href="./car-hire.php">Van Hire</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Car Hire</a>
+                                <a class="dropdown-item" href="./car-hire.php">Car Hire</a>
                                 <div class="dropdown-divider"></div>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="./user/about-us.php">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./user/contact-us.php">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">FAQ</a>
+                            <a class="nav-link" href="./user/faq.php">FAQ</a>
                         </li>
                         <li class="nav-item">
                             <a href="./user/user-dashboard.php" class="nav-link"><i class="fas fa-user-circle" style="font-size: 1.2rem"></i></a>

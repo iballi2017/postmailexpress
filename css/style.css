@@ -7,19 +7,22 @@ body {
 
 .index-body {
   background-color: #131212;
-  background-image: url(../images/frank-mckenna-tjX_sniNzgQ-unsplash\ 1.png);
+  background-image: url(../images/frank-mckenna-tjx_sninzgq-unsplash\1png);
   background-blend-mode: soft-light;
   background-size: cover;
   background-attachment: fixed; }
 
 button,
-a.btn, .btn {
+a.btn,
+.btn {
   border-radius: 0 !important; }
 
-#eye-btn2, #eye-btn1 {
+#eye-btn2,
+#eye-btn1 {
   border: 1px solid #88cc88;
   background-color: unset; }
-  #eye-btn2:focus, #eye-btn1:focus {
+  #eye-btn2:focus,
+  #eye-btn1:focus {
     outline: 0;
     inset: 0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6); }
@@ -57,14 +60,22 @@ a.btn, .btn {
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
-form, .top-page-container {
+form,
+.top-page-container {
   background-color: rgba(136, 204, 136, 0.07);
   padding: 2em; }
-  form ul, .top-page-container ul {
+  form ul,
+  .top-page-container ul {
     line-height: 2; }
-    form ul li, .top-page-container ul li {
+    form ul li,
+    .top-page-container ul li {
       list-style: none; }
-    form ul .name-label, form ul .address-label, form ul .whatsapp-number-label, .top-page-container ul .name-label, .top-page-container ul .address-label, .top-page-container ul .whatsapp-number-label {
+    form ul .name-label,
+    form ul .address-label,
+    form ul .whatsapp-number-label,
+    .top-page-container ul .name-label,
+    .top-page-container ul .address-label,
+    .top-page-container ul .whatsapp-number-label {
       font-weight: 600; }
 
 .custom-control-input:checked ~ .custom-control-label::before {
@@ -126,7 +137,7 @@ form, .top-page-container {
     height: 40px; }
 
 .menu-button-icon {
-  color: #D7D900;
+  color: #d7d900;
   border: 0;
   box-shadow: 0; }
   .menu-button-icon:focus {
@@ -154,7 +165,7 @@ form, .top-page-container {
   color: #ca940b; }
 
 .text-action {
-  color: #D7D900; }
+  color: #d7d900; }
 
 .title-component-wrapper {
   background-color: #131212;
@@ -175,7 +186,8 @@ form, .top-page-container {
   background-color: rgba(136, 204, 136, 0.07);
   border: none; }
 
-.cancelled-state, .error {
+.cancelled-state,
+.error {
   color: #dc3545; }
 
 .delivered-state {
@@ -184,11 +196,8 @@ form, .top-page-container {
 .processing-state {
   color: #6c757d; }
 
-th, td {
-  text-align: center; }
-
 .main-navigation .navbar-nav .nav-item {
-  padding-left: .5em; }
+  padding-left: 0.5em; }
 .main-navigation .navbar-nav .nav-item.active .nav-link,
 .main-navigation .navbar-nav .nav-item:hover .nav-link {
   color: #88cc88; }
@@ -274,13 +283,13 @@ th, td {
     justify-content: center;
     align-items: center; }
     .services-list .services-item.item1 {
-      background: url(../images/khadeeja-yasser-9jlyl1tmzag-unsplash\ 1.png); }
+      background: url(../images/khadeeja-yasser-9jlyl1tmzag-unsplash\1png); }
     .services-list .services-item.item2 {
-      background: url(../images/adeolu-eletu-e7rlgujjazc-unsplash\ 1.png); }
+      background: url(../images/adeolu-eletu-e7rlgujjazc-unsplash\1png); }
     .services-list .services-item.item3 {
-      background: url(../images/rinson-chory-2vpggou-wla-unsplash\ 1.png); }
+      background: url(../images/rinson-chory-2vpggou-wla-unsplash\1png); }
     .services-list .services-item.item4 {
-      background: url(../images/johannes-hofmann-vdmn0v4p7xu-unsplash\ 1.png); }
+      background: url(../images/johannes-hofmann-vdmn0v4p7xu-unsplash\1png); }
     .services-list .services-item .service-caption a {
       color: #ffffff; }
       .services-list .services-item .service-caption a:hover {
@@ -292,7 +301,7 @@ th, td {
 
 .why-choose-us {
   background-color: #131212;
-  background-image: url(../images/brendan-church-pkef6tt3c08-unsplash\ 1.png);
+  background-image: url(../images/brendan-church-pkef6tt3c08-unsplash\1png);
   background-size: cover;
   background-blend-mode: soft-light;
   background-attachment: fixed; }
@@ -319,7 +328,7 @@ th, td {
   background-color: #ffffff;
   padding-bottom: 3em; }
   .pme-rate .pme-rates-items {
-    list-style-image: url(../images/ellipse\ 2.png); }
+    list-style-image: url(../images/ellipse\2png); }
     .pme-rate .pme-rates-items li {
       margin-top: 1.4em; }
       .pme-rate .pme-rates-items li h4 {
@@ -370,12 +379,60 @@ th, td {
     justify-content: space-between;
     font-size: 1.4rem; }
 
-.schedule-pick-up-page .sender-info-container, .schedule-pick-up-page .receiver-info-container {
+.schedule-pickup-page .sender-info-container,
+.schedule-pickup-page .receiver-info-container {
   background-color: #ffffff;
   margin-top: 2em;
   padding: 2em; }
-.schedule-pick-up-page .mobile-update-request-container {
+.schedule-pickup-page .mobile-update-request-container {
   background-color: rgba(136, 204, 136, 0.3); }
+
+.pickup-notification {
+  background-color: #2d882d; }
+
+.schedule-pickup-confimation-page .receiver-info-title {
+  font-size: 1.3rem;
+  font-weight: 600; }
+.schedule-pickup-confimation-page .cancel-button {
+  background-color: #dc3545;
+  color: #ffffff; }
+  .schedule-pickup-confimation-page .cancel-button:hover {
+    background-color: #b31818; }
+
+.pickup-payment-page .payment-option-grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto, minmax(30px, auto));
+  grid-gap: 20px; }
+  .pickup-payment-page .payment-option-grid-layout .option-1 {
+    grid-column: 1/-1;
+    grid-row: 1/2; }
+  .pickup-payment-page .payment-option-grid-layout .option-2 {
+    grid-column: 1/-1;
+    grid-row: 2/3; }
+  .pickup-payment-page .payment-option-grid-layout .option-3 {
+    grid-column: 1/-1;
+    grid-row: 3/4; }
+  .pickup-payment-page .payment-option-grid-layout .option-4 {
+    grid-column: 1/-1;
+    grid-row: 4/5; }
+.pickup-payment-page .image-wrapper, .pickup-payment-page .button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .pickup-payment-page .image-wrapper img, .pickup-payment-page .button-wrapper img {
+    width: 60%; }
+
+.faq-page .refer-link {
+  text-decoration: none;
+  color: #28a745; }
+  .faq-page .refer-link:hover {
+    color: #116611; }
+.faq-page .faq-question-btn {
+  color: #116611;
+  text-decoration: none; }
+  .faq-page .faq-question-btn:hover {
+    color: #28a745; }
 
 @media (min-width: 768px) {
   .reg-input-margin-right {
@@ -400,7 +457,30 @@ th, td {
     grid-column: 2/3; }
 
   .social-icons {
-    width: 40%; } }
+    width: 40%; }
+
+  .sender-info-preview,
+  .receiver-info-preview,
+  .charges-preview {
+    width: 60%; }
+
+  .pickup-payment-page .payment-option-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(auto, minmax(30px, auto));
+    grid-gap: 20px; }
+    .pickup-payment-page .payment-option-grid-layout .option-1 {
+      grid-column: 1/4;
+      grid-row: 1/2; }
+    .pickup-payment-page .payment-option-grid-layout .option-2 {
+      grid-column: 4/7;
+      grid-row: 1/2; }
+    .pickup-payment-page .payment-option-grid-layout .option-3 {
+      grid-column: 1/4;
+      grid-row: 2/3; }
+    .pickup-payment-page .payment-option-grid-layout .option-4 {
+      grid-column: 4/7;
+      grid-row: 2/3; } }
 @media (min-width: 900px) {
   .slide-content {
     margin-top: 5em !important; }

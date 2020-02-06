@@ -1,6 +1,6 @@
 $white: #ffffff;
 $primaryGreeen: #88cc88;
-$tableHeadBackgroundColor: rgba(136, 204, 136, 0.30);
+$tableHeadBackgroundColor: rgba(136, 204, 136, 0.3);
 $primaryGreenRGBA: rgba(136, 204, 136, 0.12);
 $contentMatColor: rgba(136, 204, 136, 0.07);
 $secondaryGreen: #116611;
@@ -9,25 +9,24 @@ $blendModeBlack: #131212;
 $successColor: #28a745;
 $secondaryColor: #6c757d;
 $dangerColor: #dc3545;
-$TepGreencolor: #D7D900;
+$TepGreencolor: #d7d900;
 
 * {
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
 }
 
 .index-body {
   background-color: $blendModeBlack;
-  background-image: url(../images/frank-mckenna-tjX_sniNzgQ-unsplash\ 1.png);
+  background-image: url(../images/frank-mckenna-tjx_sninzgq-unsplash\1png);
   background-blend-mode: soft-light;
   background-size: cover;
   background-attachment: fixed;
 }
-
 
 // typography   ####################
 
@@ -35,11 +34,13 @@ body{
 
 // ####################   Component   ####################
 button,
-a.btn, .btn {
+a.btn,
+.btn {
   border-radius: 0 !important;
 }
 
-#eye-btn2, #eye-btn1{
+#eye-btn2,
+#eye-btn1 {
   border: 1px solid $primaryGreeen;
   background-color: unset;
   // border-left: 0;
@@ -51,20 +52,17 @@ a.btn, .btn {
   }
 }
 
-.eye-btn-input-attachment{
+.eye-btn-input-attachment {
   border-right: 0;
 
   &:focus {
     background-color: unset;
-    & + .input-group-append .eye-btn{
+    & + .input-group-append .eye-btn {
       border-color: $secondaryGreen !important;
       border-left: 0;
     }
   }
-  
 }
-
-
 
 .green-button {
   background-color: $secondaryGreen2;
@@ -75,23 +73,23 @@ a.btn, .btn {
   }
 }
 
-.delivery-option-page{
+.delivery-option-page {
   .nav-pills {
-    .nav-link.active{
+    .nav-link.active {
       background-color: $secondaryGreen2 !important;
-      
-      &:hover{
+
+      &:hover {
         background-color: $secondaryGreen !important;
       }
     }
 
-    .nav-link{
+    .nav-link {
       background-color: $primaryGreeen !important;
 
-      &:hover{
+      &:hover {
         background-color: $successColor !important;
       }
-  
+
       &:focus {
         outline: 0;
         inset: 0;
@@ -100,26 +98,28 @@ a.btn, .btn {
     }
   }
 
-  .express-delivery-tab-inner{
+  .express-delivery-tab-inner {
     background-color: $contentMatColor;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
 
-form, .top-page-container {
+form,
+.top-page-container {
   background-color: $contentMatColor;
   padding: 2em;
 
-  ul{
+  ul {
     line-height: 2;
-    li{
+    li {
       list-style: none;
     }
-    .name-label, .address-label, .whatsapp-number-label{
+    .name-label,
+    .address-label,
+    .whatsapp-number-label {
       font-weight: 600;
     }
   }
@@ -135,15 +135,14 @@ form, .top-page-container {
 //   background-color: #f3969a;
 // }
 
-
-.custom-control-input:checked~.custom-control-label::before {
-    color: #fff;
-    border-color: $secondaryGreen;
-    background-color: $primaryGreeen;
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: $secondaryGreen;
+  background-color: $primaryGreeen;
 }
 .custom-control-label::before {
-    background-color: #fff;
-    border: $primaryGreeen solid 1px;
+  background-color: #fff;
+  border: $primaryGreeen solid 1px;
 }
 .form-control[type="text"],
 .form-control[type="password"],
@@ -161,19 +160,16 @@ form, .top-page-container {
   }
 }
 
-
-.back-button{
+.back-button {
   background-color: unset;
   border: none;
-  
-  &::after{
+
+  &::after {
     content: "\f0e2";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
   }
 }
-
-
 
 /*--------------------------------------------------------------
 # Navigation
@@ -182,12 +178,12 @@ form, .top-page-container {
 ## Links
 --------------------------------------------------------------*/
 
-.link{
+.link {
   color: $secondaryGreen2;
 
-  &:hover{
-      text-decoration: none;
-      color: $primaryGreeen;
+  &:hover {
+    text-decoration: none;
+    color: $primaryGreeen;
   }
 }
 
@@ -208,8 +204,7 @@ form, .top-page-container {
   }
 }
 
-
-.menu-button-icon{
+.menu-button-icon {
   color: $TepGreencolor;
   border: 0;
   box-shadow: 0;
@@ -221,7 +216,6 @@ form, .top-page-container {
   }
 }
 
-
 .green-icon {
   color: $secondaryGreen;
 }
@@ -230,11 +224,7 @@ form, .top-page-container {
   background-color: $primaryGreenRGBA;
 }
 
-
-
-
 // global   ####################
-
 
 .section-title {
   text-transform: uppercase;
@@ -242,16 +232,16 @@ form, .top-page-container {
   font-weight: 600;
 }
 
-.form-title{
-    color: $secondaryGreen2;
-    text-transform: uppercase;
+.form-title {
+  color: $secondaryGreen2;
+  text-transform: uppercase;
 }
 
 .rating-star {
   color: #ca940b;
 }
 
-.text-action{
+.text-action {
   color: $TepGreencolor;
 }
 
@@ -267,42 +257,36 @@ form, .top-page-container {
   }
 }
 
-.table-head{
+.table-head {
   background-color: $tableHeadBackgroundColor;
   border: none;
-  color: $blendModeBlack; 
+  color: $blendModeBlack;
 }
 
-.table-body{
+.table-body {
   background-color: $contentMatColor;
   border: none;
 }
 
-.cancelled-state, .error{
+.cancelled-state,
+.error {
   color: $dangerColor;
 }
 
-.delivered-state{
+.delivered-state {
   color: $successColor;
 }
 
-.processing-state{
+.processing-state {
   color: $secondaryColor;
 }
 
-th, td{
-  text-align: center;
-}
-
-
-
 // ####################
 
-.main-navigation{
-
+.main-navigation {
   .navbar-nav {
-    .nav-item{
-      padding-left: .5em;
+    .nav-item {
+      padding-left: 0.5em;
     }
     .nav-item.active,
     .nav-item:hover {
@@ -427,19 +411,19 @@ th, td{
     align-items: center;
 
     &.item1 {
-      background: url(../images/khadeeja-yasser-9jlyl1tmzag-unsplash\ 1.png);
+      background: url(../images/khadeeja-yasser-9jlyl1tmzag-unsplash\1png);
     }
 
     &.item2 {
-      background: url(../images/adeolu-eletu-e7rlgujjazc-unsplash\ 1.png);
+      background: url(../images/adeolu-eletu-e7rlgujjazc-unsplash\1png);
     }
 
     &.item3 {
-      background: url(../images/rinson-chory-2vpggou-wla-unsplash\ 1.png);
+      background: url(../images/rinson-chory-2vpggou-wla-unsplash\1png);
     }
 
     &.item4 {
-      background: url(../images/johannes-hofmann-vdmn0v4p7xu-unsplash\ 1.png);
+      background: url(../images/johannes-hofmann-vdmn0v4p7xu-unsplash\1png);
     }
 
     .service-caption {
@@ -460,7 +444,7 @@ th, td{
 
 .why-choose-us {
   background-color: $blendModeBlack;
-  background-image: url(../images/brendan-church-pkef6tt3c08-unsplash\ 1.png);
+  background-image: url(../images/brendan-church-pkef6tt3c08-unsplash\1png);
   background-size: cover;
   background-blend-mode: soft-light;
   background-attachment: fixed;
@@ -507,7 +491,7 @@ th, td{
   padding-bottom: 3em;
   .pme-rates-items {
     // padding-left: 0;
-    list-style-image: url(../images/ellipse\ 2.png);
+    list-style-image: url(../images/ellipse\2png);
     li {
       margin-top: 1.4em;
 
@@ -589,35 +573,117 @@ th, td{
     justify-content: space-between;
     font-size: 1.4rem;
   }
-
-  
 }
 
-
-.schedule-pick-up-page{
-
-  .sender-info-container, .receiver-info-container{
+.schedule-pickup-page {
+  .sender-info-container,
+  .receiver-info-container {
     background-color: $white;
     margin-top: 2em;
     padding: 2em;
   }
 
-  .mobile-update-request-container{
+  .mobile-update-request-container {
     background-color: $tableHeadBackgroundColor;
   }
 }
 
-@media (min-width: 768px) {
+.pickup-notification {
+  background-color: $secondaryGreen2;
+}
 
+.schedule-pickup-confimation-page {
+
+  .receiver-info-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .cancel-button{
+    background-color: $dangerColor;
+    color: $white;
+    &:hover{
+      background-color: rgb(179, 24, 24);
+    }
+  }
+}
+
+.pickup-payment-page{
   
+  .payment-option-grid-layout{
+    // width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    // grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(auto, minmax(30px, auto));
+    grid-gap: 20px;
 
-.reg-input-margin-right{
-  padding-right: 1em !important;
+    
+      
+    .option-1{
+      grid-column: 1/-1;
+      grid-row: 1/2;
+    }
+    .option-2{
+      grid-column: 1/-1;
+      grid-row: 2/3;
+    }
+
+    .option-3{
+     grid-column: 1/-1;
+      grid-row: 3/4;
+    }
+    .option-4{
+     grid-column: 1/-1;
+      grid-row: 4/5;
+    }
+  }
+  .image-wrapper, .button-wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    img{
+      width: 60%;
+    }
+  }
+
 }
 
-.reg-input-margin-left{
-  padding-left: 1em !important;
+.faq-page{
+
+  .refer-link{
+    text-decoration: none;
+    color: $successColor;
+
+    &:hover{
+      color: $secondaryGreen;
+    }
+  }
+
+  .faq-question-btn{
+    color: $secondaryGreen;
+    text-decoration: none;
+
+    &:hover{
+      color: $successColor;
+    }
+  }
+  
 }
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .reg-input-margin-right {
+    padding-right: 1em !important;
+  }
+
+  .reg-input-margin-left {
+    padding-left: 1em !important;
+  }
 
   .services-list {
     display: flex;
@@ -651,15 +717,53 @@ th, td{
   .social-icons {
     width: 40%;
   }
+
+  .sender-info-preview,
+  .receiver-info-preview,
+  .charges-preview {
+    width: 60%;
+  }
+
+  .pickup-payment-page{
+  
+    .payment-option-grid-layout{
+      // width: 70%;
+      display: grid;
+      // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(auto, minmax(30px, auto));
+      grid-gap: 20px;
+      
+     .option-1{
+       grid-column: 1/4;
+       grid-row: 1/2;
+     }
+     .option-2{
+       grid-column: 4/7;
+       grid-row: 1/2;
+     }
+
+     .option-3{
+      grid-column: 1/4;
+       grid-row: 2/3;
+     }
+     .option-4{
+      grid-column: 4/7;
+       grid-row: 2/3;
+     }
+    }
+
+  }
+
 }
 
 @media (min-width: 900px) {
-  .slide-content{
+  .slide-content {
     margin-top: 5em !important;
   }
 
-  .hero-content{
-    h2{
+  .hero-content {
+    h2 {
       font-size: 2.5em !important;
     }
   }
