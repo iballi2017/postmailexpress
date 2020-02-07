@@ -47,17 +47,17 @@ include_once ("../includes/header.php");
                             <td>08111111111</td>
                         </tr>
                         <tr>
-                            <td><strong>Total charges</strong></td>
+                            <td><strong>Address:</strong></td>
                             <td>6a, Kolawole Shonibare Street, Lagos</td>
                         </tr>
                     </tbody>
-                </table>
+                </table>                
             </div>
         </div>
 
         <div class="row">
             <div class="col">
-                <table class="table table-borderless charges-preview">
+                <table class="table table-borderless charges-preview bg-light shadow">
                     <tbody>
                         <tr>
                             <td><strong>Pick-up charges</strong></td>

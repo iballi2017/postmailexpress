@@ -22,7 +22,8 @@ body {
 
 .index-body {
   background-color: $blendModeBlack;
-  background-image: url(../images/frank-mckenna-tjx_sninzgq-unsplash\1png);
+  // background-image: url(../images/frank-mckenna-tjx_sninzgq-unsplash\1png);
+  background-image: url(../images/frank-mckenna-tjX_sniNzgQ-unsplash.png);
   background-blend-mode: soft-light;
   background-size: cover;
   background-attachment: fixed;
@@ -413,19 +414,19 @@ a.btn,
     align-items: center;
 
     &.item1 {
-      background: url(../images/khadeeja-yasser-9jlyl1tmzag-unsplash\1png);
+      background: url(../images/khadeeja-yasser-9jlyl1tmzag-unsplash.png);
     }
 
     &.item2 {
-      background: url(../images/adeolu-eletu-e7rlgujjazc-unsplash\1png);
+      background: url(../images/adeolu-eletu-e7rlgujjazc-unsplash.png);
     }
 
     &.item3 {
-      background: url(../images/rinson-chory-2vpggou-wla-unsplash\1png);
+      background: url(../images/rinson-chory-2vpggou-wla-unsplash.png);
     }
 
     &.item4 {
-      background: url(../images/johannes-hofmann-vdmn0v4p7xu-unsplash\1png);
+      background: url(../images/johannes-hofmann-vdmn0v4p7xu-unsplash.png);
     }
 
     .service-caption {
@@ -446,7 +447,7 @@ a.btn,
 
 .why-choose-us {
   background-color: $blendModeBlack;
-  background-image: url(../images/brendan-church-pkef6tt3c08-unsplash\1png);
+  background-image: url(../images/brendan-church-pkef6tt3c08-unsplash.png);
   background-size: cover;
   background-blend-mode: soft-light;
   background-attachment: fixed;
@@ -493,7 +494,7 @@ a.btn,
   padding-bottom: 3em;
   .pme-rates-items {
     // padding-left: 0;
-    list-style-image: url(../images/ellipse\2png);
+    list-style-image: url(../images/ellipse.png);
     li {
       margin-top: 1.4em;
 
@@ -577,7 +578,9 @@ a.btn,
   }
 }
 
-.schedule-pickup-page, .car-hire-page {
+.schedule-pickup-page,
+.car-hire-page,
+.special-delivery-page {
   .sender-info-container,
   .receiver-info-container,
   .car-hire-form-container {
@@ -596,24 +599,22 @@ a.btn,
 }
 
 .schedule-pickup-confimation-page {
-
   .receiver-info-title {
     font-size: 1.3rem;
     font-weight: 600;
   }
 
-  .cancel-button{
+  .cancel-button {
     background-color: $dangerColor;
     color: $white;
-    &:hover{
+    &:hover {
       background-color: rgb(179, 24, 24);
     }
   }
 }
 
-.pickup-payment-page{
-  
-  .payment-option-grid-layout{
+.pickup-payment-page {
+  .payment-option-grid-layout {
     // width: 70%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -621,63 +622,54 @@ a.btn,
     grid-template-rows: repeat(auto, minmax(30px, auto));
     grid-gap: 20px;
 
-    
-      
-    .option-1{
+    .option-1 {
       grid-column: 1/-1;
       grid-row: 1/2;
     }
-    .option-2{
+    .option-2 {
       grid-column: 1/-1;
       grid-row: 2/3;
     }
 
-    .option-3{
-     grid-column: 1/-1;
+    .option-3 {
+      grid-column: 1/-1;
       grid-row: 3/4;
     }
-    .option-4{
-     grid-column: 1/-1;
+    .option-4 {
+      grid-column: 1/-1;
       grid-row: 4/5;
     }
   }
-  .image-wrapper, .button-wrapper{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    img{
+  .image-wrapper,
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
       width: 60%;
     }
   }
-
 }
 
-.faq-page{
-
-  .refer-link{
+.faq-page {
+  .refer-link {
     text-decoration: none;
     color: $successColor;
 
-    &:hover{
+    &:hover {
       color: $secondaryGreen;
     }
   }
 
-  .faq-question-btn{
+  .faq-question-btn {
     color: $secondaryGreen;
     text-decoration: none;
 
-    &:hover{
+    &:hover {
       color: $successColor;
     }
   }
-  
 }
-
-
-
-
-
 
 @media (min-width: 768px) {
   .reg-input-margin-right {
@@ -727,37 +719,34 @@ a.btn,
     width: 60%;
   }
 
-  .pickup-payment-page{
-  
-    .payment-option-grid-layout{
+  .pickup-payment-page {
+    .payment-option-grid-layout {
       // width: 70%;
       display: grid;
       // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       grid-template-columns: repeat(6, 1fr);
       grid-template-rows: repeat(auto, minmax(30px, auto));
       grid-gap: 20px;
-      
-     .option-1{
-       grid-column: 1/4;
-       grid-row: 1/2;
-     }
-     .option-2{
-       grid-column: 4/7;
-       grid-row: 1/2;
-     }
 
-     .option-3{
-      grid-column: 1/4;
-       grid-row: 2/3;
-     }
-     .option-4{
-      grid-column: 4/7;
-       grid-row: 2/3;
-     }
+      .option-1 {
+        grid-column: 1/4;
+        grid-row: 1/2;
+      }
+      .option-2 {
+        grid-column: 4/7;
+        grid-row: 1/2;
+      }
+
+      .option-3 {
+        grid-column: 1/4;
+        grid-row: 2/3;
+      }
+      .option-4 {
+        grid-column: 4/7;
+        grid-row: 2/3;
+      }
     }
-
   }
-
 }
 
 @media (min-width: 900px) {

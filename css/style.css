@@ -7,7 +7,7 @@ body {
 
 .index-body {
   background-color: #131212;
-  background-image: url(../images/frank-mckenna-tjx_sninzgq-unsplash\1png);
+  background-image: url(../images/frank-mckenna-tjX_sniNzgQ-unsplash.png);
   background-blend-mode: soft-light;
   background-size: cover;
   background-attachment: fixed; }
@@ -287,13 +287,13 @@ a.btn,
     justify-content: center;
     align-items: center; }
     .services-list .services-item.item1 {
-      background: url(../images/khadeeja-yasser-9jlyl1tmzag-unsplash\1png); }
+      background: url(../images/khadeeja-yasser-9jlyl1tmzag-unsplash.png); }
     .services-list .services-item.item2 {
-      background: url(../images/adeolu-eletu-e7rlgujjazc-unsplash\1png); }
+      background: url(../images/adeolu-eletu-e7rlgujjazc-unsplash.png); }
     .services-list .services-item.item3 {
-      background: url(../images/rinson-chory-2vpggou-wla-unsplash\1png); }
+      background: url(../images/rinson-chory-2vpggou-wla-unsplash.png); }
     .services-list .services-item.item4 {
-      background: url(../images/johannes-hofmann-vdmn0v4p7xu-unsplash\1png); }
+      background: url(../images/johannes-hofmann-vdmn0v4p7xu-unsplash.png); }
     .services-list .services-item .service-caption a {
       color: #ffffff; }
       .services-list .services-item .service-caption a:hover {
@@ -305,7 +305,7 @@ a.btn,
 
 .why-choose-us {
   background-color: #131212;
-  background-image: url(../images/brendan-church-pkef6tt3c08-unsplash\1png);
+  background-image: url(../images/brendan-church-pkef6tt3c08-unsplash.png);
   background-size: cover;
   background-blend-mode: soft-light;
   background-attachment: fixed; }
@@ -332,7 +332,7 @@ a.btn,
   background-color: #ffffff;
   padding-bottom: 3em; }
   .pme-rate .pme-rates-items {
-    list-style-image: url(../images/ellipse\2png); }
+    list-style-image: url(../images/ellipse.png); }
     .pme-rate .pme-rates-items li {
       margin-top: 1.4em; }
       .pme-rate .pme-rates-items li h4 {
@@ -385,13 +385,19 @@ a.btn,
 
 .schedule-pickup-page .sender-info-container,
 .schedule-pickup-page .receiver-info-container,
-.schedule-pickup-page .car-hire-form-container, .car-hire-page .sender-info-container,
+.schedule-pickup-page .car-hire-form-container,
+.car-hire-page .sender-info-container,
 .car-hire-page .receiver-info-container,
-.car-hire-page .car-hire-form-container {
+.car-hire-page .car-hire-form-container,
+.special-delivery-page .sender-info-container,
+.special-delivery-page .receiver-info-container,
+.special-delivery-page .car-hire-form-container {
   background-color: #ffffff;
   margin-top: 2em;
   padding: 2em; }
-.schedule-pickup-page .mobile-update-request-container, .car-hire-page .mobile-update-request-container {
+.schedule-pickup-page .mobile-update-request-container,
+.car-hire-page .mobile-update-request-container,
+.special-delivery-page .mobile-update-request-container {
   background-color: rgba(136, 204, 136, 0.3); }
 
 .pickup-notification {
@@ -423,11 +429,13 @@ a.btn,
   .pickup-payment-page .payment-option-grid-layout .option-4 {
     grid-column: 1/-1;
     grid-row: 4/5; }
-.pickup-payment-page .image-wrapper, .pickup-payment-page .button-wrapper {
+.pickup-payment-page .image-wrapper,
+.pickup-payment-page .button-wrapper {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .pickup-payment-page .image-wrapper img, .pickup-payment-page .button-wrapper img {
+  .pickup-payment-page .image-wrapper img,
+  .pickup-payment-page .button-wrapper img {
     width: 60%; }
 
 .faq-page .refer-link {

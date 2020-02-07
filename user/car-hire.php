@@ -5,10 +5,6 @@ include_once ("../includes/header.php");
 
 
 
-
-<!-- .schedule-pickup-page -->
-<!-- car-hire-page -->
-
 <main class="car-hire-page">
 
     <section class="title-component-wrapper py-5">
@@ -36,7 +32,7 @@ include_once ("../includes/header.php");
 
                     <div class="form-global-style">
 
-                        <!-- sender's information -->
+                        <!-- car hire form container -->
                         <div class="car-hire-form-container shadow">
 
                             <div class="form-row">
@@ -97,23 +93,14 @@ include_once ("../includes/header.php");
                                     <label for="licenseNumber">Driver's Licence Number**</label>
                                     <input type="number" class="form-control" id="licenseNumber" name="licenseNumber"
                                         required>
-                                    <div class="valid-tooltip">
-                                        Looks good!
-                                    </div>
                                 </div>
                                 <div class="col-md-4 mb-3 reg-input-margin-left">
                                     <label for="date">Prefered Pickup Date**</label>
                                     <input type="date" class="form-control" id="date" name="date" required>
-                                    <div class="valid-tooltip">
-                                        Looks good!
-                                    </div>
                                 </div>
                                 <div class="col-md-4 mb-3 reg-input-margin-left">
-                                    <label for="date">Prefered Pickup Time**</label>
-                                    <input type="date" class="form-control" id="date" name="date" required>
-                                    <div class="valid-tooltip">
-                                        Looks good!
-                                    </div>
+                                    <label for="time">Prefered Pickup Time**</label>
+                                    <input type="time" class="form-control" id="time" name="time" required>
                                 </div>
                             </div>
 
@@ -131,56 +118,14 @@ include_once ("../includes/header.php");
                                 <div class="col-md-8 mb-3 reg-input-margin-left">
                                     <label for="otherInfo">Special Request / Other Informations*</label>
                                     <input type="text" class="form-control" id="otherInfo" name="otherInfo" required>
-                                    <div class="valid-tooltip">
-                                        Looks good!
-                                    </div>
                                 </div>
                             </div>
 
-
-
-                            <!-- 
-                            <div class="row">
-                                <div class="col-12 col-md-4">
-                                    <div class="row">
-                                        <div class="col mb-4">
-                                            <label for="state">State</label>
-                                            <select class="custom-select custom-select-md" id="state" name="state">
-                                                <option selected>Select state</option>
-                                                <option value="1">Lagos</option>
-                                                <option value="2">Abuja</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <label for="townCity">Town/City</label>
-                                            <select class="custom-select custom-select-md" id="townCity"
-                                                name="townCity">
-                                                <option selected>Select town or city</option>
-                                                <option value="1">Alagbado</option>
-                                                <option value="2">Garki</option>
-                                                <option value="3">Ikeja</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-8">
-                                    <div class="row">
-                                        <div class="col">
-                                            <label for="email">Address</label>
-                                            <textarea type="email" class="form-control" rows="5" id="email" name="email"
-                                                value="iballi2017@gmail.com" required></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
                         </div>
+                        <button class="btn green-button shadow mt-4 px-5" type="submit">Submit</button>
 
                     </div>
 
-                        <button class="btn green-button shadow mt-4 px-5" type="submit">Submit</button>
                         
                 </form>
             </div>

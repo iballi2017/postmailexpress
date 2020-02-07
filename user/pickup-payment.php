@@ -60,7 +60,7 @@ include_once ("../includes/header.php");
 
         <div class="row">
             <div class="col">
-                <table class="table table-borderless charges-preview">
+                <table class="table table-borderless charges-preview bg-light shadow">
                     <tbody>
                         <tr>
                             <td><strong>Pick-up charges</strong></td>
