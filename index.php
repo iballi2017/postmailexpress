@@ -268,7 +268,7 @@
         <div class="why-choose-us-grid-container container">
             <div class="column-item-1 shadow">
                 <div class="card">
-                    <img src="./images/Post mail express Web Banner 4 (2) (1).png" class="card-img-top" alt="...">
+                    <img src="./images/delivery-service.png" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h3 class="card-title">Efficient and Convenient service</h3>
                         <p class="card-text">

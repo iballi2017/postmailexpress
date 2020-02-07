@@ -7,7 +7,7 @@ body {
 
 .index-body {
   background-color: #131212;
-  background-image: url(../images/frank-mckenna-tjX_sniNzgQ-unsplash.png);
+  background-image: url("../images/hero-background-image.png");
   background-blend-mode: soft-light;
   background-size: cover;
   background-attachment: fixed; }
@@ -134,7 +134,7 @@ a.btn,
 .navbar-brand {
   text-indent: -100000px; }
   .navbar-brand h2 {
-    background-image: url("../images/PostMailExpress.png");
+    background-image: url("../images/PostMailExpress-logo.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 120px;
@@ -287,13 +287,13 @@ a.btn,
     justify-content: center;
     align-items: center; }
     .services-list .services-item.item1 {
-      background: url(../images/khadeeja-yasser-9jlyl1tmzag-unsplash.png); }
+      background: url(../images/clock-image.png); }
     .services-list .services-item.item2 {
-      background: url(../images/adeolu-eletu-e7rlgujjazc-unsplash.png); }
+      background: url(../images/business-newspaper-image.png); }
     .services-list .services-item.item3 {
-      background: url(../images/rinson-chory-2vpggou-wla-unsplash.png); }
+      background: url(../images/cargo-container-images.png); }
     .services-list .services-item.item4 {
-      background: url(../images/johannes-hofmann-vdmn0v4p7xu-unsplash.png); }
+      background: url(../images/transport-bus-image.png); }
     .services-list .services-item .service-caption a {
       color: #ffffff; }
       .services-list .services-item .service-caption a:hover {
@@ -305,7 +305,7 @@ a.btn,
 
 .why-choose-us {
   background-color: #131212;
-  background-image: url(../images/brendan-church-pkef6tt3c08-unsplash.png);
+  background-image: url(../images/one-way-direction-image.png);
   background-size: cover;
   background-blend-mode: soft-light;
   background-attachment: fixed; }
