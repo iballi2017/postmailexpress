@@ -72,7 +72,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="./user/delivery-options.php">Van Hire</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="./car-hire.php">Car Hire</a>
+                                <a class="dropdown-item" href="./user/car-hire.php">Car Hire</a>
                                 <div class="dropdown-divider"></div>
                             </div>
                         </li>
