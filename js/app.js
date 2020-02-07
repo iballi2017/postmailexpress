@@ -253,3 +253,7 @@ $(function () {
         })
     }
 })
+
+function greet(){
+    alert("Hello")
+}
