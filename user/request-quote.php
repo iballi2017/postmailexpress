@@ -9,6 +9,21 @@ include_once ("../includes/header.php");
             <h1 class="page-title">Request Quote</h1>
         </div>
     </section>
+    
+
+    <section class="container alert">
+        <div class="row">
+            <div class="col text-center">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    Your request is well received, our response will reach you shortly.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
 
 
@@ -28,23 +43,21 @@ include_once ("../includes/header.php");
                     <div class="form-row">
                         <div class="col-md-4 mb-3">
                             <label for="firstName">First Name*</label>
-                            <input type="text" class="form-control" id="firstName" name="firstName" value="Mark"
-                                required>
+                            <input type="text" class="form-control" id="firstName" name="firstName" required>
                             <div class="valid-tooltip">
                                 Looks good!
                             </div>
                         </div>
                         <div class="col-md-4 mb-3">
                             <label for="lastName">Last Name*</label>
-                            <input type="text" class="form-control" id="lastName" name="lastName" value="Otto" required>
+                            <input type="text" class="form-control" id="lastName" name="lastName" required>
                             <div class="valid-tooltip">
                                 Looks good!
                             </div>
                         </div>
                         <div class="col-md-4 mb-3">
                             <label for="phoneNumber">Phone Number*</label>
-                            <input type="text" class="form-control" id="phoneNumber" name="phoneNumber"
-                                value="+234 07156789000" required>
+                            <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" required>
                             <div class="valid-tooltip">
                                 Looks good!
                             </div>
@@ -53,8 +66,7 @@ include_once ("../includes/header.php");
                     <div class="form-row">
                         <div class="col-md-4 mb-3">
                             <label for="email">E-mail Address*</label>
-                            <input type="email" class="form-control" id="email" name="email"
-                                value="iballi2017@gmail.com" required>
+                            <input type="email" class="form-control" id="email" name="email" required>
                             <div class="valid-tooltip">
                                 Looks good!
                             </div>

@@ -10,31 +10,42 @@ include_once ("../includes/header.php");
         </div>
     </section>
 
-<section class="container">
-  <div class="row">
-    <div class="col col-lg-6 offset-lg-3 col-md-6 offset-md-3">
-      <form class="needs-validation mb-3 mt-5" action='' novalidate>
-          
+    <section class="container">
+
+        <!-- back button -->
         <div class="row">
             <div class="col">
-            <h5 class="form-title mb-5">Forgot Your Password?</h5>
+                <button onclick="goBack()" class="back-button shadow"></button>
             </div>
         </div>
+        <!-- /back button -->
 
-        <div class="form-row">
-          <div class="col mb-3">
-            <label for="validationTooltip01">Enter Your Email Address</label>
-            <input type="email" class="form-control" id="validationTooltip01" value="iballi2017@gmail.com" required>
-            <div class="valid-tooltip">
-              Looks good!
+
+        <div class="row">
+            <div class="col col-lg-6 offset-lg-3 col-md-6 offset-md-3">
+                <form class="needs-validation mb-3 mt-5" action='' novalidate>
+
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="form-title mb-5">Forgot Your Password?</h5>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col mb-3">
+                            <label for="validationTooltip01">Enter Your Email Address</label>
+                            <input type="email" class="form-control" id="validationTooltip01"
+                                value="iballi2017@gmail.com" required>
+                            <div class="valid-tooltip">
+                                Looks good!
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn green-button shadow px-5 mb-2" type="submit">Send Resend Link</button>
+                </form>
             </div>
-          </div>
         </div>
-        <button class="btn green-button shadow px-5 mb-2" type="submit">Send Resend Link</button>
-      </form>
-    </div>
-  </div>
-</section>
+    </section>
 
 
 </main>

@@ -14,6 +14,14 @@ include_once ("../includes/header.php");
 
     <div class="container">
 
+        <!-- back button -->
+        <div class="row">
+            <div class="col">
+                <button onclick="goBack()" class="back-button shadow"></button>
+            </div>
+        </div>
+        <!-- /back button -->
+
         <div class="row">
             <div class="col">
                 <h5 class="form-title mt-5">MAKE PAYMENT</h5>
@@ -95,7 +103,7 @@ include_once ("../includes/header.php");
                                         </div>
                                     </div>
                                     <div class="col-3 button-wrapper">
-                                        <button class="btn green-button px-4 shadow" disabled>Pay</button>
+                                        <button class="btn btn-secondary px-4 shadow" disabled>Pay</button>
                                     </div>
                                 </div>
                             </div>
@@ -113,7 +121,7 @@ include_once ("../includes/header.php");
                                         </div>
                                     </div>
                                     <div class="col-3 button-wrapper">
-                                        <button class="btn green-button px-4 shadow" disabled>Pay</button>
+                                        <button class="btn btn-secondary px-4 shadow" disabled>Pay</button>
                                     </div>
                                 </div>
                             </div>

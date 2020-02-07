@@ -21,13 +21,13 @@ include_once ("../includes/header.php");
                         style="background-color: red; width:100%">
                         <li class="nav-item" style="width:50%">
                             <a class="nav-link active btn green-button" id="pills-express-tab" data-toggle="pill"
-                                href="#pills-express" role="tab" aria-controls="pills-express" aria-selected="true">Express
+                                href="#pills-express" role="tab" aria-controls="pills-express"
+                                aria-selected="true">Express
                                 Delivery</a>
                         </li>
                         <li class="nav-item" style="width:50%">
                             <a class="nav-link btn green-button" id="pills-cargo-tab" data-toggle="pill"
-                                href="#pills-cargo" role="tab" aria-controls="pills-cargo"
-                                aria-selected="false">Cargo
+                                href="#pills-cargo" role="tab" aria-controls="pills-cargo" aria-selected="false">Cargo
                                 Delivery</a>
                         </li>
                     </ul>
@@ -64,106 +64,108 @@ include_once ("../includes/header.php");
 
                                 <section class="container-fluid">
 
-                                    <form class="needs-validation mb-3 mt-2" id="registerForm" action='' novalidate>
+                                    <form class="needs-validation mb-3 mt-2" id="registerForm"
+                                        action='' novalidate>
+                                        <div class="form-global-style">
+                                            <div class="row">
+                                                <div class="col">
 
-                                        <div class="row">
-                                            <div class="col">
-
-                                                <p>Post Mail Express also offers point to point Cargo delivery per
-                                                    client
-                                                    request to
-                                                    most states in Nigeria</p>
-                                                <p><strong>Kindly fill the form below our representative will
-                                                        be in touch shortly</strong></p>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-row">
-                                            <div class="col-md-4 mb-3">
-                                                <label for="firstName">Name</label>
-                                                <input type="text" class="form-control" id="firstName" name="firstName"
-                                                    value="Mark" required>
-                                                <div class="valid-tooltip">
-                                                    Looks good!
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <label for="email">E-mail Address</label>
-                                                <input type="email" class="form-control" id="email" name="email"
-                                                    value="iballi2017@gmail.com" required>
-                                                <div class="valid-tooltip">
-                                                    Looks good!
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="col-md-4 mb-3">
-                                                <label for="packageType">Package Type</label>
-                                                <!-- <input type="text" class="form-control" id="validationTooltip02" value="Otto" required> -->
-                                                <select class="custom-select custom-select-md" id="packageType"
-                                                    name="packageType">
-                                                    <option selected>Select Package Type</option>
-                                                    <option value="1">********</option>
-                                                    <option value="2">%%%%%%%%</option>
-                                                </select>
-                                                <div class="valid-tooltip">
-                                                    Looks good!
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <label for="serviceType">Service Type</label>
-                                                <!-- <input type="text" class="form-control" id="validationTooltip02" value="Otto" required> -->
-                                                <select class="custom-select custom-select-md" id="serviceType"
-                                                    name="serviceType">
-                                                    <option selected>Select Service Type</option>
-                                                    <option value="1">#####</option>
-                                                    <option value="2">*****</option>
-                                                </select>
-                                                <div class="valid-tooltip">
-                                                    Looks good!
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="col-md-4 mb-3">
-                                                <label for="PickUpstate">Pick-up State</label>
-                                                <select class="custom-select custom-select-md" id="PickUpstate"
-                                                    name="PickUpstate">
-                                                    <option selected>Select state</option>
-                                                    <option value="1">Lagos</option>
-                                                    <option value="2">Abuja</option>
-                                                </select>
-                                                <div class="valid-tooltip">
-                                                    Looks good!
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 mb-3">
-                                                <label for="Deliverystate">Delivery State</label>
-                                                <!-- <input type="text" class="form-control" id="validationTooltip02" value="Otto" required> -->
-                                                <!-- <select class="custom-select custom-select-lg mb-3"> -->
-                                                <select class="custom-select custom-select-md" id="Deliverystate"
-                                                    name="Deliverystate">
-                                                    <option selected>Select state</option>
-                                                    <option value="1">Lagos</option>
-                                                    <option value="2">Abuja</option>
-                                                </select>
-                                                <div class="valid-tooltip">
-                                                    Looks good!
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="col-md-8 mb-3">
-                                                <label for="message">Message</label>
-                                                <textarea type="text" class="form-control" id="message"
-                                                    required></textarea>
-                                                <div class="valid-tooltip">
-                                                    Looks good!
+                                                    <p>Post Mail Express also offers point to point Cargo delivery per
+                                                        client
+                                                        request to
+                                                        most states in Nigeria</p>
+                                                    <p><strong>Kindly fill the form below our representative will
+                                                            be in touch shortly</strong></p>
                                                 </div>
                                             </div>
 
+                                            <div class="form-row">
+                                                <div class="col-md-4 mb-3">
+                                                    <label for="firstName">Name</label>
+                                                    <input type="text" class="form-control" id="firstName"
+                                                        name="firstName" value="Mark" required>
+                                                    <div class="valid-tooltip">
+                                                        Looks good!
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 mb-3">
+                                                    <label for="email">E-mail Address</label>
+                                                    <input type="email" class="form-control" id="email" name="email"
+                                                        value="iballi2017@gmail.com" required>
+                                                    <div class="valid-tooltip">
+                                                        Looks good!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="col-md-4 mb-3">
+                                                    <label for="packageType">Package Type</label>
+                                                    <!-- <input type="text" class="form-control" id="validationTooltip02" value="Otto" required> -->
+                                                    <select class="custom-select custom-select-md" id="packageType"
+                                                        name="packageType">
+                                                        <option selected>Select Package Type</option>
+                                                        <option value="1">********</option>
+                                                        <option value="2">%%%%%%%%</option>
+                                                    </select>
+                                                    <div class="valid-tooltip">
+                                                        Looks good!
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 mb-3">
+                                                    <label for="serviceType">Service Type</label>
+                                                    <!-- <input type="text" class="form-control" id="validationTooltip02" value="Otto" required> -->
+                                                    <select class="custom-select custom-select-md" id="serviceType"
+                                                        name="serviceType">
+                                                        <option selected>Select Service Type</option>
+                                                        <option value="1">Cargo Delivery</option>
+                                                        <option value="2">Van Hire</option>
+                                                    </select>
+                                                    <div class="valid-tooltip">
+                                                        Looks good!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="col-md-4 mb-3">
+                                                    <label for="PickUpstate">Pick-up State</label>
+                                                    <select class="custom-select custom-select-md" id="PickUpstate"
+                                                        name="PickUpstate">
+                                                        <option selected>Select state</option>
+                                                        <option value="1">Lagos</option>
+                                                        <option value="2">Abuja</option>
+                                                    </select>
+                                                    <div class="valid-tooltip">
+                                                        Looks good!
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 mb-3">
+                                                    <label for="Deliverystate">Delivery State</label>
+                                                    <!-- <input type="text" class="form-control" id="validationTooltip02" value="Otto" required> -->
+                                                    <!-- <select class="custom-select custom-select-lg mb-3"> -->
+                                                    <select class="custom-select custom-select-md" id="Deliverystate"
+                                                        name="Deliverystate">
+                                                        <option selected>Select state</option>
+                                                        <option value="1">Lagos</option>
+                                                        <option value="2">Abuja</option>
+                                                    </select>
+                                                    <div class="valid-tooltip">
+                                                        Looks good!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="col-md-8 mb-3">
+                                                    <label for="message">Message</label>
+                                                    <textarea type="text" class="form-control" id="message"
+                                                        required></textarea>
+                                                    <div class="valid-tooltip">
+                                                        Looks good!
+                                                    </div>
+                                                </div>
+
+                                            </div>
                                         </div>
-                                        <button class="btn green-button shadow mt-2 px-5" type="submit">Submit</button>
+                                        <button class="btn green-button shadow mt-4 px-5" type="submit">Submit</button>
                                     </form>
                                 </section>
                             </div>

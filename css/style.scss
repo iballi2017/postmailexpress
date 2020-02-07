@@ -107,7 +107,7 @@ a.btn,
 # Forms
 --------------------------------------------------------------*/
 
-form,
+.form-global-style,
 .top-page-container {
   background-color: $contentMatColor;
   padding: 2em;
@@ -147,6 +147,8 @@ form,
 .form-control[type="text"],
 .form-control[type="password"],
 .form-control[type="email"],
+.form-control[type="number"],
+.form-control[type="date"],
 .custom-select {
   border-radius: 0;
   border: 1px solid $primaryGreeen;
@@ -575,9 +577,10 @@ form,
   }
 }
 
-.schedule-pickup-page {
+.schedule-pickup-page, .car-hire-page {
   .sender-info-container,
-  .receiver-info-container {
+  .receiver-info-container,
+  .car-hire-form-container {
     background-color: $white;
     margin-top: 2em;
     padding: 2em;

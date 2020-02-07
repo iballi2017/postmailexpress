@@ -56,7 +56,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="./user/request-quote.php">Request Quote</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Special Delivery</a>
+                                <a class="dropdown-item" href="./user/special-delivery.php">Special Delivery</a>
                                 <div class="dropdown-divider"></div>
                             </div>
                         </li>
@@ -70,7 +70,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="./user/delivery-options.php">PME Delivery</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="./car-hire.php">Van Hire</a>
+                                <a class="dropdown-item" href="./user/delivery-options.php">Van Hire</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="./car-hire.php">Car Hire</a>
                                 <div class="dropdown-divider"></div>
@@ -109,7 +109,7 @@
                         <a class="nav-link active" href="./user/user-dashboard.php">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Payment</a>
+                        <a class="nav-link" href="#">Wallet</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Settings</a>

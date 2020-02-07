@@ -12,10 +12,6 @@ include_once '../includes/header.php'; ?>
 
     <section class="container">
 
-        <!-- back button -->
-        <?php include_once '../includes/back-button-component.php'; ?>
-        <!-- /back button -->
-
 
         <div class="row">
             <div class="col">

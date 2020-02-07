@@ -13,9 +13,11 @@ include_once '../includes/header.php'; ?>
     <section class="container">
 
         <!-- back button -->
-        <?php
-            include_once '../includes/back-button-component.php';
-        ?>
+        <div class="row">
+            <div class="col">
+            <button onclick="goBack()" class="back-button shadow"></button>
+            </div>
+        </div>
         <!-- /back button -->
 
         <div class="row">

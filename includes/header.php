@@ -55,7 +55,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="../user/request-quote.php">Request Quote</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Special Delivery</a>
+                                <a class="dropdown-item" href="../user/special-delivery.php">Special Delivery</a>
                                 <div class="dropdown-divider"></div>
                             </div>
                         </li>
@@ -68,7 +68,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="../user/delivery-options.php">PME Delivery</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="../user/van-hire.php">Van Hire</a>
+                                <a class="dropdown-item" href="../user/delivery-options.php">Van Hire</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="../user/car-hire.php">Car Hire</a>
                                 <div class="dropdown-divider"></div>

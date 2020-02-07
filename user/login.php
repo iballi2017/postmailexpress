@@ -13,10 +13,6 @@ include_once ("../includes/header.php");
     <section class="container alert">
         <div class="row">
             <div class="col text-center">
-                <!-- <div class="alert alert-danger" role="alert">
-                    Enter correct information to log into your account!
-                </div> -->
-
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                     <strong>Oops!</strong> Enter correct information to log into your account!
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
