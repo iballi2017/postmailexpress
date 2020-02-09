@@ -86,7 +86,8 @@
                             <a class="nav-link" href="./user/faq.php">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./user/user-dashboard.php" class="nav-link"><i class="fas fa-user-circle" style="font-size: 1.2rem"></i></a>
+                            <a href="./user/user-dashboard.php" class="nav-link"><i class="fas fa-user-circle"
+                                    style="font-size: 1.2rem"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./user/login.php">Login</a>
@@ -109,13 +110,13 @@
                         <a class="nav-link active" href="./user/user-dashboard.php">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Wallet</a>
+                        <a class="nav-link" href="./user/fund-wallet.php">Fund Wallet</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Settings</a>
+                        <a class="nav-link" href="./user/account-info.php">Account Settings</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="#">Wallet Balance: #2,300</a>
+                        <a class="nav-link" href="./user/fund-wallet.php">Wallet Balance: #2,300</a>
                     </li>
                 </ul>
             </div>
@@ -135,7 +136,8 @@
                         <div class="owl-carousel owl-theme hero-text-slider pt-4 container" style="color: white;">
                             <div class="hero-content">
                                 <div class="content-inner text-center">
-                                    <h2 class="animated fadeIn delay">Special Delivery <span class="text-action">Van Hire</span> Service Available to Major Towns & Cities
+                                    <h2 class="animated fadeIn delay">Special Delivery <span class="text-action">Van
+                                            Hire</span> Service Available to Major Towns & Cities
                                     </h2>
 
                                     <a href="#" class="btn btn-lg green-button shadow mt-4">Make Your Shipping</a>
@@ -143,14 +145,16 @@
                             </div>
                             <div class="hero-content">
                                 <div class="content-inner text-center">
-                                    <h2 class="animated fadeIn delay">Effective & Efficient <span class="text-action">Delivery Service</span> </h2>
+                                    <h2 class="animated fadeIn delay">Effective & Efficient <span
+                                            class="text-action">Delivery Service</span> </h2>
 
                                     <a href="#" class="btn btn-lg green-button shadow mt-4">Request Quote</a>
                                 </div>
                             </div>
                             <div class="hero-content">
                                 <div class="content-inner text-center">
-                                    <h2 class="animated fadeIn delay">Your Best Options For <span class="text-action">Sending Mails & Packages</span> </h2>
+                                    <h2 class="animated fadeIn delay">Your Best Options For <span
+                                            class="text-action">Sending Mails & Packages</span> </h2>
                                     <a href="#" class="btn btn-lg green-button shadow mt-4">Hire a Van</a>
                                 </div>
                             </div>
@@ -243,7 +247,8 @@
                     <div class="text-center">
                         <h2><i class="fas rating-star fa-truck"></i></h2>
                         <p class="service-caption">
-                            <a href="./user/info-van-hire.php"><span class="cap1">Van Hire</span><br /><span class="cap2">
+                            <a href="./user/info-van-hire.php"><span class="cap1">Van Hire</span><br /><span
+                                    class="cap2">
                                     Service
                                 </span>
                             </a>
@@ -510,10 +515,10 @@
                                 <h2>Navbar</h2>
                             </a>
                         </li>
-                        <li><i class="fas fa-phone-square-alt contact-icon"></i> <span class="phone-number">+234 7065 543 455</span
-                                c><br />
-                            <i class="fas fa-envelope contact-icon"></i> <span class="email-address">admin@gmail.com</span
-                                class="phone-number"></li>
+                        <li><i class="fas fa-phone-square-alt contact-icon"></i> <span class="phone-number">+234 7065
+                                543 455</span c><br />
+                            <i class="fas fa-envelope contact-icon"></i> <span
+                                class="email-address">admin@gmail.com</span class="phone-number"></li>
                     </ul>
                 </div>
                 <div class="col-6 col-lg-3">
