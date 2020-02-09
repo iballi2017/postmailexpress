@@ -449,18 +449,18 @@ a.btn,
   .faq-page .faq-question-btn:hover {
     color: #28a745; }
 
+@media (min-width: 899px) {
+  .services-list {
+    display: flex;
+    justify-content: space-between; }
+    .services-list .services-item {
+      flex-basis: 24%; } }
 @media (min-width: 768px) {
   .reg-input-margin-right {
     padding-right: 1em !important; }
 
   .reg-input-margin-left {
     padding-left: 1em !important; }
-
-  .services-list {
-    display: flex;
-    justify-content: space-between; }
-    .services-list .services-item {
-      flex-basis: 24%; }
 
   .why-choose-us .why-choose-us-grid-container .column-item-1 {
     grid-column: 1/2; }

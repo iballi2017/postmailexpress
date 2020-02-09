@@ -205,7 +205,7 @@
                             <i class="fas rating-star fa-history fa-1x"></i>
                         </h2>
                         <p class="service-caption">
-                            <a href="#">
+                            <a href="./user/info-next-day-delivery.php">
                                 <span class="cap1">Next Day</span><br /><span class="cap2">
                                     Delivery
                                     Service
@@ -218,7 +218,7 @@
                     <div class="text-center">
                         <h2><i class="fas rating-star fa-business-time"></i></h2>
                         <p class="service-caption">
-                            <a href="#">
+                            <a href="./user/info-2-3-days-delivery.php">
                                 <span class="cap1">2-3 Business Days</span><br /><span class="cap2">
                                     Delivery
                                     Service
@@ -231,7 +231,7 @@
                     <div class="text-center">
                         <h2><i class="fas rating-star fa-ship"></i></h2>
                         <p class="service-caption">
-                            <a href="#">
+                            <a href="./user/info-cargo-delivery.php">
                                 <span class="cap1">Cargo Delivery</span><br /><span class="cap2">
                                     To Most States in Nigeria
                                 </span>
@@ -243,7 +243,7 @@
                     <div class="text-center">
                         <h2><i class="fas rating-star fa-truck"></i></h2>
                         <p class="service-caption">
-                            <a href="#"><span class="cap1">Van Hire</span><br /><span class="cap2">
+                            <a href="./user/info-van-hire.php"><span class="cap1">Van Hire</span><br /><span class="cap2">
                                     Service
                                 </span>
                             </a>

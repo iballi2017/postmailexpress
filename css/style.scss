@@ -666,6 +666,32 @@ a.btn,
   }
 }
 
+@media (min-width: 899px){
+
+  .services-list {
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+
+    .services-item {
+      flex-basis: 24%;
+    }
+  }
+}
+
+// @media (max-width: 898px){
+
+//   .services-list {
+//     display: flex;
+//     justify-content: space-between;
+//     flex-wrap: wrap;
+
+//     .services-item {
+//       flex-basis: 44%;
+//     }
+//   }
+// }
+
 @media (min-width: 768px) {
   .reg-input-margin-right {
     padding-right: 1em !important;
@@ -675,14 +701,15 @@ a.btn,
     padding-left: 1em !important;
   }
 
-  .services-list {
-    display: flex;
-    justify-content: space-between;
+  // .services-list {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   flex-wrap: wrap;
 
-    .services-item {
-      flex-basis: 24%;
-    }
-  }
+  //   .services-item {
+  //     flex-basis: 44%;
+  //   }
+  // }
 
   .why-choose-us {
     .why-choose-us-grid-container {
