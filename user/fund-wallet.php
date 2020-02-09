@@ -13,49 +13,36 @@ include_once '../includes/header.php'; ?>
 
     <section class="container">
         <div class="row">
-            <div class="col">
-                <form>
+            <div class="col col-lg-6 offset-lg-3">
+                <form class="mt-5">
 
                     <div class="form-global-style">
 
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-
-                        <div class="form-group">
+                        <div class="form-group text-center">
                             <div class="custom-control custom-radio custom-control-inline">
                                 <input type="radio" id="customRadioInline1" name="customRadioInline1"
-                                    class="custom-control-input">
-                                <label class="custom-control-label" for="customRadioInline1">Toggle this custom
-                                    radio</label>
+                                    class="custom-control-input" style="position: absolute">
+                                <label class="custom-control-label" for="customRadioInline1" id="label1">
+                                    <img src="../images/GTBank-logo.png" alt="">
+                                </label>
                             </div>
                             <div class="custom-control custom-radio custom-control-inline">
                                 <input type="radio" id="customRadioInline2" name="customRadioInline1"
-                                    class="custom-control-input" onclick="greet()">
-                                <label class="custom-control-label" for="customRadioInline2">Or toggle this other custom
-                                    radio</label>
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline2" id="label2">
+                                    <img src="../images/zenith.png" alt="">
+                                </label>
                             </div>
                         </div>
-
-
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Recipient's username"
-                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <input type="text" name="amount" class="form-control" placeholder="Enter Amount"
+                                aria-label="Enter Amount" aria-describedby="button-addon2">
                             <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button"
-                                    id="button-addon2">Button</button>
+                                <button class="btn green-button btn-outline-success" type="button"
+                                    id="button-addon2">FUND WALLET</button>
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
                 </form>
             </div>

@@ -255,5 +255,8 @@ $(function () {
 })
 
 function greet(){
-    alert("Hello")
+    alert("Hello");
+    var x = document.getElementById('label1');
+
+    x.style.color = 'red';
 }
