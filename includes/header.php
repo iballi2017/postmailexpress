@@ -83,8 +83,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../user/faq.php">FAQ</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item d-none d-lg-block">
                             <a href="../user/user-dashboard.php" class="nav-link"><i class="fas fa-user-circle" style="font-size: 1.2rem"></i></a>
+                        </li>
+                        <li class="nav-item d-block d-lg-none">
+                            <a href="../user/user-dashboard.php" class="nav-link">Profile</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../user/login.php">Login</a>

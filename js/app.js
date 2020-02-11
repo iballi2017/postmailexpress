@@ -254,9 +254,21 @@ $(function () {
     }
 })
 
-function greet(){
-    alert("Hello");
-    var x = document.getElementById('label1');
 
-    x.style.color = 'red';
-}
+// const servicesSection = document.querySelector("#services");
+const servicesSection = document.getElementById("services");
+
+const options = {};
+
+const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        console.log(entry.target);
+        console.log("Hello world");
+
+        if(options.threshold == 0){
+            servicesSection.style.background = "red";
+        }
+    })
+}, options);
+
+observer.observe(servicesSection);

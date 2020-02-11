@@ -13,47 +13,23 @@ include_once '../includes/header.php'; ?>
 
     <section class="container">
         <div class="row">
-            <div class="col col-lg-6 offset-lg-3">
-                <form class="mt-5">
+            <div class="col">
+
+                <h3 class="my-5 text-center">Select Method and Amount to Fund Your Wallet</h3>
+
+                <h6 class="text-center mb-5">We accept three types of payment methods; Bank transfer, Card payment and
+                    GTBank
+                    payment
+                    method.<br />You are required to choose of these available options.</h6>
+            </div>
+        </div>
+        <div class="row" style="align-items: center">
+            <div class="col-12 col-lg-4">
+
+                <h3 class="text-center">Option 1</h3>
+                <!-- <form class="mt-5">
 
                     <div class="form-global-style">
-
-                        <!-- <div class="form-group text-center">
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline1" name="customRadioInline1"
-                                    class="custom-control-input" style="position: absolute">
-                                <label class="custom-control-label" for="customRadioInline1" id="label1">
-                                    <img class="img img-fluid" src="../images/GTBank-logo.png" alt="">
-                                </label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline2" name="customRadioInline1"
-                                    class="custom-control-input">
-                                <label class="custom-control-label" for="customRadioInline2" id="label2">
-                                    <img class="img img-fluid" src="../images/zenith.png" alt="">
-                                </label>
-                            </div>
-                        </div> -->
-
-
-                        <!-- <div class="row">
-                            <div class="col">
-                                <div class="custom-control custom-radio">
-                                    <input type="radio" id="customRadio1" name="customRadio"
-                                        class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadio1">
-                                        <img class="img img-fluid" src="../images/GTBank-logo.png" alt=""></label>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="custom-control custom-radio">
-                                    <input type="radio" id="customRadio2" name="customRadio"
-                                        class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadio2"><img class="img img-fluid"
-                                            src="../images/zenith.png" alt=""></label>
-                                </div>
-                            </div>
-                        </div> -->
 
                         <h5 class="mb-3">Select Method and Amount to Fund Your Wallet</h5>
 
@@ -63,7 +39,7 @@ include_once '../includes/header.php'; ?>
                         </div>
                         <div class="custom-control custom-radio mb-3">
                             <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio2">Card Transfer</label>
+                            <label class="custom-control-label" for="customRadio2">Card Payment</label>
                         </div>
 
                         <div class="custom-control custom-radio mb-3">
@@ -71,17 +47,161 @@ include_once '../includes/header.php'; ?>
                             <label class="custom-control-label" for="customRadio3">GT PAY</label>
                         </div>
 
-                        <div class="input-group mb-3">
-                            <input type="text" name="amount" class="form-control" placeholder="Enter Amount"
-                                aria-label="Enter Amount" aria-describedby="button-addon2">
-                            <div class="input-group-append">
-                                <button class="btn green-button btn-outline-success" type="button"
-                                    id="button-addon2">FUND WALLET</button>
-                            </div>
+
+                        <div class="form-group">
+                            <label for="amount">Enter Amount</label>
+                            <input type="text" class="form-control" id="amount" aria-describedby="amountHelp"
+                                placeholder="Enter Amount">
+                            <small id="amountHelp" class="form-text text-muted">e.g 5000.00</small>
                         </div>
 
+                        <button type="submit" class="btn green-button btn-outline-success">FUND WALLET</button>
+
                     </div>
-                </form>
+                </form> -->
+
+                <div class="card m-3 border-0 shadow">
+                    <img src="../images/Transfer.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Account Number: 0123456789</h5>
+                        <h5 class="card-title">Account Name: Postmailexpress Nigeria</h5>
+                        <h5 class="card-title">Bank GTBank: 0123456789</h5>
+                        <p class="card-text">Transfer into the provided account number, and text your transfer details
+                            to
+                            08012345678</p>
+
+                        <button type="submit" class="btn px-5 green-button btn-outline-success"
+                            style="width: 100%" onclick="goBack()">Complete</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-lg-4">
+
+                <h3 class="text-center">Option 2</h3>
+
+                <!-- <form class="mt-5">
+
+                    <div class="form-global-style">
+
+                        <h5 class="mb-3">Select Method and Amount to Fund Your Wallet</h5>
+
+                        <div class="custom-control custom-radio mb-3">
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio1">Bank transfer</label>
+                        </div>
+                        <div class="custom-control custom-radio mb-3">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio2">Card Payment</label>
+                        </div>
+
+                        <div class="custom-control custom-radio mb-3">
+                            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio3">GT PAY</label>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="amount">Enter Amount</label>
+                            <input type="text" class="form-control" id="amount" aria-describedby="amountHelp"
+                                placeholder="Enter Amount">
+                            <small id="amountHelp" class="form-text text-muted">e.g 5000.00</small>
+                        </div>
+
+                        <button type="submit" class="btn green-button btn-outline-success">FUND WALLET</button>
+
+                    </div>
+                </form> -->
+
+                <div class="card m-3 border-0 shadow">
+                    <img src="../images/gtpay.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="amount">Amount</label>
+                                <input type="number" class="form-control" id="amount" aria-describedby="amountHelp">
+                            </div>
+                            <div class="form-group">
+                                <label for="cardNumber">Card Number</label>
+                                <input type="number" class="form-control" id="cardNumber">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="expiryDate">Expiry Date</label>
+                                    <input type="date" class="form-control" id="expiryDate">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="cvvNumber">CVV</label>
+                                    <input type="number" class="form-control" id="cvvNumber">
+                                </div>
+                            </div>
+
+                            <div class="form-group custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="saveRadio">
+                                <label class="custom-control-label" for="saveRadio">Saved Card details for Future
+                                    Use</label>
+                            </div>
+
+                            <button type="submit" class="btn px-5 green-button btn-outline-success"
+                                style="width: 100%">PAY</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-lg-4">
+
+                <h3 class="text-center">Option 3</h3>
+                <!-- <form class="mt-5">
+
+                    <div class="form-global-style">
+
+                        <h5 class="mb-3">Select Method and Amount to Fund Your Wallet</h5>
+
+                        <div class="custom-control custom-radio mb-3">
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio1">Bank transfer</label>
+                        </div>
+                        <div class="custom-control custom-radio mb-3">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio2">Card Payment</label>
+                        </div>
+
+                        <div class="custom-control custom-radio mb-3">
+                            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio3">GT PAY</label>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="amount">Enter Amount</label>
+                            <input type="text" class="form-control" id="amount" aria-describedby="amountHelp"
+                                placeholder="Enter Amount">
+                            <small id="amountHelp" class="form-text text-muted">e.g 5000.00</small>
+                        </div>
+
+                        <button type="submit" class="btn green-button btn-outline-success">FUND WALLET</button>
+
+                    </div>
+                </form> -->
+
+
+                <div class="card m-3 border-0 shadow">
+                    <img src="../images/card.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="amount">Amount</label>
+                                <input type="number" class="form-control" id="amount" aria-describedby="amountHelp">
+                            </div>
+
+                            <button type="submit" class="btn px-5 green-button btn-outline-success"
+                                style="width: 100%">PAY</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
