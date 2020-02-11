@@ -24,10 +24,10 @@ include_once ("../includes/header.php");
         </div>
     </section>
 
-    <section class="container">
+    <section class="container mb-5">
         <div class="row">
             <div class="col col-lg-6 offset-lg-3 col-md-6 offset-md-3">
-                <form class="needs-validation mb-3 mt-5" action='' id="loginForm" novalidate>
+                <form class="needs-validation mb-5 mt-5" action='' id="loginForm" novalidate>
 
                     <div class="row">
                         <div class="col">

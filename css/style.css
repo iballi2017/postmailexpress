@@ -449,6 +449,14 @@ a.btn,
   .faq-page .faq-question-btn:hover {
     color: #28a745; }
 
+.about-us-page {
+  color: #2d882d; }
+  .about-us-page a {
+    color: #dc3545; }
+    .about-us-page a:hover {
+      color: #116611;
+      font-weight: 500; }
+
 @media (min-width: 899px) {
   .services-list {
     display: flex;

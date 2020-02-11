@@ -666,6 +666,18 @@ a.btn,
   }
 }
 
+.about-us-page {
+  color: $secondaryGreen2;
+  a{
+    // text-decoration: none;
+    color: $dangerColor;
+    &:hover{
+      color: $secondaryGreen;
+      font-weight: 500;
+    }
+  }
+}
+
 @media (min-width: 899px){
 
   .services-list {
