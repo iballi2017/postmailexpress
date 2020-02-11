@@ -23,7 +23,7 @@ include_once '../includes/header.php'; ?>
                     method.<br />You are required to choose of these available options.</h6>
             </div>
         </div>
-        <div class="row" style="align-items: center">
+        <div class="row">
             <div class="col-12 col-lg-4">
 
                 <h3 class="text-center">Option 1</h3>
