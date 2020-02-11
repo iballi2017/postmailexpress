@@ -100,12 +100,13 @@ include_once ("../includes/header.php");
                                             <div class="form-row">
                                                 <div class="col-md-4 mb-3">
                                                     <label for="packageType">Package Type</label>
-                                                    <!-- <input type="text" class="form-control" id="validationTooltip02" value="Otto" required> -->
                                                     <select class="custom-select custom-select-md" id="packageType"
                                                         name="packageType">
                                                         <option selected>Select Package Type</option>
-                                                        <option value="1">********</option>
-                                                        <option value="2">%%%%%%%%</option>
+                                                        <option value="1">Heavy</option>
+                                                        <option value="2">Light</option>
+                                                        <option value="3">Not fragile</option>
+                                                        <option value="4">Fragile</option>
                                                     </select>
                                                     <div class="valid-tooltip">
                                                         Looks good!
@@ -113,7 +114,6 @@ include_once ("../includes/header.php");
                                                 </div>
                                                 <div class="col-md-4 mb-3">
                                                     <label for="serviceType">Service Type</label>
-                                                    <!-- <input type="text" class="form-control" id="validationTooltip02" value="Otto" required> -->
                                                     <select class="custom-select custom-select-md" id="serviceType"
                                                         name="serviceType">
                                                         <option selected>Select Service Type</option>
@@ -140,8 +140,6 @@ include_once ("../includes/header.php");
                                                 </div>
                                                 <div class="col-md-4 mb-3">
                                                     <label for="Deliverystate">Delivery State</label>
-                                                    <!-- <input type="text" class="form-control" id="validationTooltip02" value="Otto" required> -->
-                                                    <!-- <select class="custom-select custom-select-lg mb-3"> -->
                                                     <select class="custom-select custom-select-md" id="Deliverystate"
                                                         name="Deliverystate">
                                                         <option selected>Select state</option>

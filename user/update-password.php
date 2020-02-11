@@ -41,7 +41,6 @@ include_once ("../includes/header.php");
               <input type="password" class="form-control eye-btn-input-attachment border-right-0" aria-label="Recipient's username" aria-describedby="button-addon2" id="confirmNewPassword">
               <div class="input-group-append">
                 <button class="btn border-left-0 eye-btn" type="button" id="eye-btn2" onclick="toggleConfirmPassword()">
-                  <!-- <i class="fas menu-button-icon fa-eye-slash fa-1x"></i> -->
                   <i class="fas green-icon fa-eye fa-1x" id="confirm-passwordIcon"></i>
                 </button>
               </div>

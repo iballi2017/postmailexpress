@@ -121,7 +121,7 @@ include_once ("../includes/header.php");
                                         </div>
                                     </div>
                                     <div class="col-3 button-wrapper">
-                                        <button class="btn btn-secondary px-4 shadow" disabled>Pay</button>
+                                        <button class="btn green-button px-4 shadow">Pay</button>
                                     </div>
                                 </div>
                             </div>
@@ -134,12 +134,12 @@ include_once ("../includes/header.php");
                                     </div>
                                     <div class="col-7">
                                         <div class="card-body">
-                                            <h6 class="card-title">Transfer from Gtbank</h6>
+                                            <h6 class="card-title">Transfer to our Gtbank Account</h6>
                                             <p class="card-text">Pay through your bank Via transfer</p>
                                         </div>
                                     </div>
                                     <div class="col-3 button-wrapper">
-                                        <button class="btn green-button px-4 shadow">Pay</button>
+                                        <button class="btn btn-secondary px-4 shadow" disabled>Pay</button>
                                     </div>
                                 </div>
                             </div>
@@ -152,12 +152,12 @@ include_once ("../includes/header.php");
                                     </div>
                                     <div class="col-7">
                                         <div class="card-body">
-                                            <h6 class="card-title">Transfer from Zenith bank</h6>
+                                            <h6 class="card-title">Transfer to our Zenith bank Account</h6>
                                             <p class="card-text">Pay through your bank Via transfer</p>
                                         </div>
                                     </div>
                                     <div class="col-3 button-wrapper">
-                                        <button class="btn green-button px-4 shadow">Pay</button>
+                                        <button class="btn btn-secondary px-4 shadow disabled">Pay</button>
                                     </div>
                                 </div>
                             </div>

@@ -112,7 +112,6 @@ include_once '../includes/header.php'; ?>
                         <div class="form-row">
                             <div class="col-md-6 mb-3 reg-input-margin-right">
                                 <label for="townCity">Town/City</label>
-                                <!-- <input type="text" class="form-control" id="validationTooltip02" value="Otto" required> -->
                                 <select class="custom-select custom-select-md" id="townCity" name="townCity">
                                     <option selected>Select town or city</option>
                                     <option value="1">Alagbado</option>
@@ -125,8 +124,6 @@ include_once '../includes/header.php'; ?>
                             </div>
                             <div class="col-md-6 mb-3 reg-input-margin-left">
                                 <label for="state">State</label>
-                                <!-- <input type="text" class="form-control" id="validationTooltip02" value="Otto" required> -->
-                                <!-- <select class="custom-select custom-select-lg mb-3"> -->
                                 <select class="custom-select custom-select-md" id="state" name="state">
                                     <option selected>Select state</option>
                                     <option value="1">Lagos</option>

@@ -27,38 +27,6 @@ include_once '../includes/header.php'; ?>
             <div class="col-12 col-lg-4">
 
                 <h3 class="text-center">Option 1</h3>
-                <!-- <form class="mt-5">
-
-                    <div class="form-global-style">
-
-                        <h5 class="mb-3">Select Method and Amount to Fund Your Wallet</h5>
-
-                        <div class="custom-control custom-radio mb-3">
-                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio1">Bank transfer</label>
-                        </div>
-                        <div class="custom-control custom-radio mb-3">
-                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio2">Card Payment</label>
-                        </div>
-
-                        <div class="custom-control custom-radio mb-3">
-                            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio3">GT PAY</label>
-                        </div>
-
-
-                        <div class="form-group">
-                            <label for="amount">Enter Amount</label>
-                            <input type="text" class="form-control" id="amount" aria-describedby="amountHelp"
-                                placeholder="Enter Amount">
-                            <small id="amountHelp" class="form-text text-muted">e.g 5000.00</small>
-                        </div>
-
-                        <button type="submit" class="btn green-button btn-outline-success">FUND WALLET</button>
-
-                    </div>
-                </form> -->
 
                 <div class="card m-3 border-0 shadow">
                     <img src="../images/Transfer.jpg" class="card-img-top" alt="...">
@@ -80,39 +48,6 @@ include_once '../includes/header.php'; ?>
             <div class="col-12 col-lg-4">
 
                 <h3 class="text-center">Option 2</h3>
-
-                <!-- <form class="mt-5">
-
-                    <div class="form-global-style">
-
-                        <h5 class="mb-3">Select Method and Amount to Fund Your Wallet</h5>
-
-                        <div class="custom-control custom-radio mb-3">
-                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio1">Bank transfer</label>
-                        </div>
-                        <div class="custom-control custom-radio mb-3">
-                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio2">Card Payment</label>
-                        </div>
-
-                        <div class="custom-control custom-radio mb-3">
-                            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio3">GT PAY</label>
-                        </div>
-
-
-                        <div class="form-group">
-                            <label for="amount">Enter Amount</label>
-                            <input type="text" class="form-control" id="amount" aria-describedby="amountHelp"
-                                placeholder="Enter Amount">
-                            <small id="amountHelp" class="form-text text-muted">e.g 5000.00</small>
-                        </div>
-
-                        <button type="submit" class="btn green-button btn-outline-success">FUND WALLET</button>
-
-                    </div>
-                </form> -->
 
                 <div class="card m-3 border-0 shadow">
                     <img src="../images/gtpay.png" class="card-img-top" alt="...">
@@ -154,39 +89,6 @@ include_once '../includes/header.php'; ?>
             <div class="col-12 col-lg-4">
 
                 <h3 class="text-center">Option 3</h3>
-                <!-- <form class="mt-5">
-
-                    <div class="form-global-style">
-
-                        <h5 class="mb-3">Select Method and Amount to Fund Your Wallet</h5>
-
-                        <div class="custom-control custom-radio mb-3">
-                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio1">Bank transfer</label>
-                        </div>
-                        <div class="custom-control custom-radio mb-3">
-                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio2">Card Payment</label>
-                        </div>
-
-                        <div class="custom-control custom-radio mb-3">
-                            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadio3">GT PAY</label>
-                        </div>
-
-
-                        <div class="form-group">
-                            <label for="amount">Enter Amount</label>
-                            <input type="text" class="form-control" id="amount" aria-describedby="amountHelp"
-                                placeholder="Enter Amount">
-                            <small id="amountHelp" class="form-text text-muted">e.g 5000.00</small>
-                        </div>
-
-                        <button type="submit" class="btn green-button btn-outline-success">FUND WALLET</button>
-
-                    </div>
-                </form> -->
-
 
                 <div class="card m-3 border-0 shadow">
                     <img src="../images/card.jpg" class="card-img-top" alt="...">
