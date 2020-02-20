@@ -22,7 +22,7 @@ body {
 
 .index-body {
   background-color: $blendModeBlack;
-  background-image: url("../images/hero-background-image.png");
+  // background-image: url("../images/hero-background-image.png");
   background-blend-mode: soft-light;
   background-size: cover;
   background-attachment: fixed;
@@ -124,16 +124,6 @@ a.btn,
     }
   }
 }
-
-// select option:focus {
-//   background-color: red !important;
-// }
-// .dropdown-menu > li > a:hover,
-// .dropdown-menu > li > a:focus {
-//   text-decoration: none;
-//   color: #ffffff;
-//   background-color: #f3969a;
-// }
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
@@ -361,7 +351,7 @@ a.btn,
 }
 
 .hero-container {
-  height: 80vh;
+  height: 100vh;
 }
 
 .hero-content {
@@ -375,11 +365,14 @@ a.btn,
   }
 
   .slide-content {
-    height: 60%;
+    // height: 60%;
+    background-color: red !important;
   }
 
   .track-input-wrapper {
-    height: 40%;
+    // height: 40%;
+    background-color: yellow;
+    color: red !important;
   }
 }
 
@@ -668,18 +661,17 @@ a.btn,
 
 .successful-payment-page {
   color: $secondaryGreen2;
-  a{
+  a {
     // text-decoration: none;
     color: $dangerColor;
-    &:hover{
+    &:hover {
       color: $secondaryGreen;
       font-weight: 500;
     }
   }
 }
 
-@media (min-width: 899px){
-
+@media (min-width: 899px) {
   .services-list {
     display: flex;
     justify-content: space-between;
@@ -690,7 +682,6 @@ a.btn,
     }
   }
 }
-
 
 @media (min-width: 768px) {
   .reg-input-margin-right {

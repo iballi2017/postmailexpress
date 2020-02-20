@@ -7,7 +7,6 @@ body {
 
 .index-body {
   background-color: #131212;
-  background-image: url("../images/hero-background-image.png");
   background-blend-mode: soft-light;
   background-size: cover;
   background-attachment: fixed; }
@@ -251,7 +250,7 @@ a.btn,
       color: #88cc88; }
 
 .hero-container {
-  height: 80vh; }
+  height: 100vh; }
 
 .hero-content {
   height: 100%;
@@ -261,9 +260,10 @@ a.btn,
   .hero-content .content-inner {
     width: 70%; }
   .hero-content .slide-content {
-    height: 60%; }
+    background-color: red !important; }
   .hero-content .track-input-wrapper {
-    height: 40%; }
+    background-color: yellow;
+    color: red !important; }
 
 .track-field-container {
   background-color: rgba(255, 255, 255, 0.5); }

@@ -38,8 +38,8 @@ include_once '../includes/header.php'; ?>
                             to
                             08012345678</p>
 
-                        <button type="submit" class="btn px-5 green-button btn-outline-success"
-                            style="width: 100%" onclick="goBack()">Complete</button>
+                        <button type="submit" class="btn px-5 green-button btn-outline-success" style="width: 100%"
+                            onclick="goBack()">Complete</button>
                     </div>
                 </div>
             </div>
@@ -54,8 +54,9 @@ include_once '../includes/header.php'; ?>
                     <div class="card-body">
                         <form>
                             <div class="form-group">
-                                <label for="amount">Amount</label>
-                                <input type="number" class="form-control" id="amount" aria-describedby="amountHelp">
+                                <label for="amountOption2">Amount</label>
+                                <input type="number" class="form-control" id="amountOption2"
+                                    aria-describedby="amountOption2Help">
                             </div>
                             <div class="form-group">
                                 <label for="cardNumber">Card Number</label>
@@ -95,8 +96,9 @@ include_once '../includes/header.php'; ?>
                     <div class="card-body">
                         <form>
                             <div class="form-group">
-                                <label for="amount">Amount</label>
-                                <input type="number" class="form-control" id="amount" aria-describedby="amountHelp">
+                                <label for="amountOption3">Amount</label>
+                                <input type="number" class="form-control" id="amountOption3"
+                                    aria-describedby="amountOption3Help">
                             </div>
 
                             <button type="submit" class="btn px-5 green-button btn-outline-success"

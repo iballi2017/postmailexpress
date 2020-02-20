@@ -197,7 +197,7 @@
     <!-- main -->
 
 
-    <section class="container-fluid services bg-white pb-5" id="services">
+    <section class="container-fluid services bg-white pb-5">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -212,12 +212,12 @@
                             <i class="fas rating-star fa-history fa-1x"></i>
                         </h2>
                         <p class="service-caption">
-                            <a href="./user/info-next-day-delivery.php">
-                                <span class="cap1">Next Day</span><br /><span class="cap2">
-                                    Delivery
-                                    Service
-                                </span>
-                            </a>
+                            <!-- <a href="./user/info-next-day-delivery.php"> -->
+                            <span class="cap1">Next Day</span><br /><span class="cap2">
+                                Delivery
+                                Service
+                            </span>
+                            <!-- </a> -->
                         </p>
                     </div>
                 </li>
@@ -225,12 +225,12 @@
                     <div class="text-center">
                         <h2><i class="fas rating-star fa-business-time"></i></h2>
                         <p class="service-caption">
-                            <a href="./user/info-2-3-days-delivery.php">
-                                <span class="cap1">2-3 Business Days</span><br /><span class="cap2">
-                                    Delivery
-                                    Service
-                                </span>
-                            </a>
+                            <!-- <a href="./user/info-2-3-days-delivery.php"> -->
+                            <span class="cap1">2-3 Business Days</span><br /><span class="cap2">
+                                Delivery
+                                Service
+                            </span>
+                            <!-- </a> -->
                         </p>
                     </div>
                 </li>
@@ -238,11 +238,11 @@
                     <div class="text-center">
                         <h2><i class="fas rating-star fa-ship"></i></h2>
                         <p class="service-caption">
-                            <a href="./user/info-cargo-delivery.php">
-                                <span class="cap1">Cargo Delivery</span><br /><span class="cap2">
-                                    To Most States in Nigeria
-                                </span>
-                            </a>
+                            <!-- <a href="./user/info-cargo-delivery.php"> -->
+                            <span class="cap1">Cargo Delivery</span><br /><span class="cap2">
+                                To Most States in Nigeria
+                            </span>
+                            <!-- </a> -->
                         </p>
                     </div>
                 </li>
@@ -250,11 +250,11 @@
                     <div class="text-center">
                         <h2><i class="fas rating-star fa-truck"></i></h2>
                         <p class="service-caption">
-                            <a href="./user/info-van-hire.php"><span class="cap1">Van Hire</span><br /><span
-                                    class="cap2">
-                                    Service
-                                </span>
-                            </a>
+                            <!-- <a href="./user/info-van-hire.php"> -->
+                            <span class="cap1">Van Hire</span><br /><span class="cap2">
+                                Service
+                            </span>
+                            <!-- </a> -->
                         </p>
                     </div>
                 </li>
