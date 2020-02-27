@@ -38,6 +38,9 @@
                     <li>
                         <a href="#" class="footer-links">FAQ</a>
                     </li>
+                    <li>
+                        <a href="../user/privacy-policy.php" class="footer-links">Privacy Policy</a>
+                    </li>
                 </ul>
             </div>
             <div class="col-6 col-lg-3">
